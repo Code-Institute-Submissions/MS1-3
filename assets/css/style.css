@@ -1,0 +1,34 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*---------------- Containers -----------*/
+
+.callout-container {
+    height: 100vh;
+
+    background: url('/assets/img/home-banner4.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*transform: skew(0deg, -11deg) scale(0.9) rotate(-0deg);*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.7);
+}
+
+i {
+    display: inline-block;
+    margin-right: 6px;
+  }
+.nav-link {
+    font-size: 1.2em;
+}
