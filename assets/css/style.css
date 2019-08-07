@@ -12,7 +12,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*transform: skew(0deg, -11deg) scale(0.9) rotate(-0deg);*/
+    transform: skew(0deg, -11deg) scale(0.9) rotate(-0deg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,4 +31,13 @@ i {
   }
 .nav-link {
     font-size: 1.2em;
+}
+
+footer {
+    min-height: 150px;
+    margin: 0;
+}
+
+#footer-details {
+    padding: 20px;
 }
