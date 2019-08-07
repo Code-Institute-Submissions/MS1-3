@@ -50,17 +50,25 @@ footer {
     margin: 0;
 }
 
-#footer-details {
+#footer-styling {
     padding: 20px;
+    margin: 20px;
 }
 
 .social-links li{
     display: inline-block;
 }
 
-.social-links li {
-    float: left;
+.social-links {
+    align-items: center;
 }
+
+.footer-social-col {
+        position: relative;
+        top: 60px;
+        left: 0;
+}
+
 /* -------------------  NAVIGATION  ------------------------*/
 /* -------------------  CONTENT     ------------------------*/
 /* -------------------  ANIMATIONS  ------------------------*/
