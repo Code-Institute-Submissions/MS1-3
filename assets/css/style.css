@@ -3,6 +3,10 @@ body {
 }
 
 
+.container-fluid {
+    padding: 0px;
+    margin; 0px;
+}
 /* -------------------  BACKGROUND  ------------------------*/
 
 .callout-container {
@@ -53,6 +57,9 @@ footer {
     font-size: 16px;
 }
 
+footer div {
+    position: relative;
+}
 #footer-styling {
     padding: 20px;
 }
@@ -71,11 +78,10 @@ footer {
         padding: 5px;
 
     }
-.footer-social-col {
+/* .footer-social-col {
         position: relative;
-        top: 60px;
-        left: 0;
-}
+      
+} */
 .company-details {
     margin-left: 20px;
 }
