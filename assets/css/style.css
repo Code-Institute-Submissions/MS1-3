@@ -12,7 +12,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*transform: skew(0deg, -11deg) scale(0.9) rotate(-0deg);*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,11 +47,14 @@ i {
 footer {
     min-height: 200px;
     margin: 0;
+    padding: 60px 0;
+    background-color: #1f2b36;
+    color: #fff;
+    font-size: 16px;
 }
 
 #footer-styling {
     padding: 20px;
-    margin: 20px;
 }
 
 .social-links li{
@@ -61,12 +63,21 @@ footer {
 
 .social-links {
     align-items: center;
-}
+    }
 
+.social-links a{
+        color: #fff;
+        font-size: 40px;
+        padding: 5px;
+
+    }
 .footer-social-col {
         position: relative;
         top: 60px;
         left: 0;
+}
+.company-details {
+    margin-left: 20px;
 }
 
 /* -------------------  NAVIGATION  ------------------------*/
