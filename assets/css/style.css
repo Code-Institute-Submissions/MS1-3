@@ -3,10 +3,7 @@ body {
 }
 
 
-.container-fluid {
-    padding: 0px;
-    margin; 0px;
-}
+
 /* -------------------  BACKGROUND  ------------------------*/
 
 .callout-container {
@@ -51,7 +48,7 @@ i {
 footer {
     min-height: 200px;
     margin: 0;
-    padding: 60px 0;
+    padding: 0;
     background-color: #1f2b36;
     color: #fff;
     font-size: 16px;
@@ -86,6 +83,13 @@ footer div {
     margin-left: 20px;
 }
 
+
+details {
+    background-color: #1f2b36;
+    color: #fff;
+    padding-left: 15px; 
+}
+]
 /* -------------------  NAVIGATION  ------------------------*/
 /* -------------------  CONTENT     ------------------------*/
 /* -------------------  ANIMATIONS  ------------------------*/
