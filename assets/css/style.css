@@ -83,14 +83,14 @@ footer div {
       
 } */
 .company-details {
-    margin-left: 20px;
+    padding-left: 20px;
 }
 
 
-details {
+.copyright {
     background-color: #1f2b36;
     color: #fff;
-    padding-left: 15px; 
+    padding-left: 20px; 
 }
 
 /* -------------------  NAVIGATION  ------------------------*/
