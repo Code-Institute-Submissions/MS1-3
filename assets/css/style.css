@@ -23,6 +23,10 @@ body {
     position: relative;
 
 }
+/* -------------------    HEADER    ------------------------*/
+#chevron {
+    text-align: center;
+}
 
 /* -------------------  NAVIGATION  ------------------------*/
 
@@ -32,7 +36,7 @@ body {
 }
 
 .navbar {
-    opacity:0.5;
+    opacity:0.75;
 }
 
 i {
