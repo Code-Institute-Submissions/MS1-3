@@ -5,7 +5,10 @@ body {
     padding: 0;
     margin: 0;
 }
-
+a {
+    text-decoration: none;
+    color: #fff;
+}
 
 /* -------------------  BACKGROUND  ------------------------*/
 
@@ -21,13 +24,38 @@ body {
     justify-content: center;
     z-index: 1;
     position: relative;
-
 }
+
+.callout-container::after {
+    background-color: #000;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    }
+
 /* -------------------    HEADER    ------------------------*/
+header {
+    height: 30px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    z-index: 99;
+} 
+
 #chevron {
     text-align: center;
 }
 
+#detailsNav{
+    height: 30px;
+}
 /* -------------------  NAVIGATION  ------------------------*/
 
 
@@ -47,10 +75,16 @@ i {
 .nav-link {
     font-size: 1.2em;
 }
+/* -------------------  NAVIGATION  ------------END---------*/
+
+/* -------------------  CONTENT     ------------------------*/
+.home-card{
+    height: 50%;
+    width: 80%;
+}
+/* -------------------  CONTENT     ------------END---------*/
 
 /* -------------------  FOOTER      ------------------------*/
-
-
 
 footer {
     min-height: 200px;
@@ -97,8 +131,6 @@ footer div {
     padding-left: 20px; 
 }
 
-/* -------------------  NAVIGATION  ------------------------*/
-/* -------------------  CONTENT     ------------------------*/
 /* -------------------  ANIMATIONS  ------------------------*/
 /* -------------------  FOOTER      ------------------------*/
 /* -------------------  HEADER      ------------------------*/
