@@ -25,9 +25,9 @@
 
   <!----------------------------- NAVIGATION----------------------------------------->
   <nav class="navbar navbar-expand-lg navbar-light bg-light" id="mainNav">
-    <div class="container main-nav" height="100px";>
+    <div class="container main-nav" height="100px" ;>
       <a class="navbar-brand " href="#">
-        <img src="/assets/img/vigilogo180x100.png" class="img-fluid fit-image"  alt="Vigilant">
+        <img src="/assets/img/vigilogo180x100.png" class="img-fluid fit-image" alt="Vigilant">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +44,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#intruder">Security</a>
           </li>
-          <li class="nav-item"> 
+          <li class="nav-item">
             <a class="nav-link" href="#contact-us">Contact Us</a>
           </li>
         </ul>
@@ -65,22 +65,27 @@
 
 
   <section class="container-fluid callout-container">
-    <div class="row home-card ">
+    <div class="row home-card  align-items-stretch">
       <div class="col-sm-6">
-        <div class="card">
+        <div class="card card-left h-100">
           <div class="card-body">
             <h5 class="card-title">Alarms for Your Home</h5>
-            <p class="card-text">Priparolis mi ke alia prenis iris viron. Kaj trankvila bone livroj la decidi al la metrojn ke,. </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text">Do you need brand-new security alarms to protect your Caterham, Banstead, Oxted or
+              Warlingham property? We also cater to clients in Surrey, London and the Home Counties, with nationwide
+              appointments subject to availability. </p>
+            <a href="#" class="btn vig-red">Go somewhere else</a>
           </div>
         </div>
       </div>
       <div class="col-sm-6">
-        <div class="card">
+        <div class="card card-right h-100">
           <div class="card-body">
             <h5 class="card-title">Alarms for Your Bussiness</h5>
-            <p class="card-text"> Im ich sehnen lied ertönt bilder mein. Träne getäuscht seh ein erste herz vom. Vom fühlt und gedränge wohl nebel.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text"> Established in 2005, we are an independent B2B security company celebrating more than
+              50 years of combined industry experience. Based in Caterham, we provide domestic and commercial clients in
+              the surrounding Banstead, Oxted and Warlingham areas with reliable electronic security alarms and security
+              alarm maintenance services.</p>
+            <a href="#" class="btn vig-red">Go somewhere else</a>
           </div>
         </div>
       </div>
@@ -104,10 +109,11 @@
         </ul>
       </div>
       <div class="col-12 col-md-4 company-details">
-        <p> <i class="fas fa-phone"></i> 01883 332955 <span> <i class="far fa-clock" style="padding-left: 10px";></i> 24/7 </span> </p>
-        
-        <p> <i class="far fa-envelope"></i> 
-          <a href="mailto:info@vigilant-security.net">info@vigilant-security.net </a> </p> 
+        <p> <i class="fas fa-phone"></i> 01883 332955 <span> <i class="far fa-clock" style="padding-left: 10px" ;></i>
+            24/7 </span> </p>
+
+        <p> <i class="far fa-envelope"></i>
+          <a href="mailto:info@vigilant-security.net">info@vigilant-security.net </a> </p>
         <p>48 Westway</p>
         <p>Caterham</p>
         <p>Surrey</p>
@@ -116,9 +122,92 @@
       <div class="col-12 col-md-4 ">
         <a class="footer-links" href="#about">About</a>
         <a class="footer-links" href="#about">Deals</a>
-        <a class="footer-links" href="#about">Careers</a>
         <a class="footer-links" href="#about">Partners</a>
-
+        <a class="footer-links" data-toggle="modal" data-target="#exampleModal">Careers</a>
+        
+       
+            <!-- Modal content-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+             
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title">Login</h1>
+                        </div>
+                        <div class="modal-body">
+                            <form role="form" method="POST" action="">
+                                <input type="hidden" name="_token" value="">
+                                <div class="form-group">
+                                    <label class="control-label">E-Mail Address</label>
+                                    <div>
+                                        <input type="email" class="form-control input-lg" name="email" value="">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">Password</label>
+                                    <div>
+                                        <input type="password" class="form-control input-lg" name="password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="remember"> Remember Me
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div>
+                                        <button type="submit" class="btn btn-success">Login</button>
+             
+                                        <a class="btn btn-link" href="">Forgot Your Password?</a>
+                                    </div>
+                                </div>
+                            </form>
+                            <h1>Or Signup!</h1>
+                            <form role="form" method="POST" action="">
+                                <input type="hidden" name="_token" value="">
+                                <div class="form-group">
+                                    <label class="control-label">Username</label>
+                                    <div>
+                                        <input type="text" class="form-control input-lg" name="name" value="">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">E-Mail Address</label>
+                                    <div>
+                                        <input type="email" class="form-control input-lg" name="email" value="">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">Password</label>
+                                    <div>
+                                        <input type="password" class="form-control input-lg" name="password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">Confirm Password</label>
+                                    <div>
+                                        <input type="password" class="form-control input-lg" name="password_confirmation">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div>
+                                        <button type="submit" class="btn btn-success">
+                                            Register
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+            </div>
+            
+          </div>
 
       </div>
     </div>
@@ -136,6 +225,8 @@
   <!--button onclick="topFunction()" id="myBtn" title="Go to top" style="display: block;">Back to Top</button>
   <div class="container-fluid callout-container">
     <div class="opaque-overlay">&nbsp;</div-->
+
+ 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
