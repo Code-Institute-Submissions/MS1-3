@@ -41,14 +41,16 @@ a {
 
 /* -------------------  NAVIGATION  ------------------------*/
 
-
+.fit-image{
+    height: 10vh;
+}
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0,.75);
 }
 
 .navbar {
     opacity:0.75;
-    height: 15vh;
+    height: 12vh;
 }
 
 i {
