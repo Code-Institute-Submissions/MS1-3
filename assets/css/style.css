@@ -49,7 +49,7 @@ a {
     -o-transform: skew(-12deg);
      transform: skew(-12deg);
      border: #000;
-     border-left:1px solid #af2330;color:#af2330;
+     border-left:1px solid #af2330;
      
   }
 .skew > li:hover {
@@ -62,13 +62,8 @@ a {
 }
 
 
-
-
-
-
-
 .skew > li:last-child {
-  border-right:1px solid rgb(184, 13, 50);color:#af2330;
+  border-right:1px solid rgb(184, 13, 50);
   }
 
 .fit-image{
@@ -125,6 +120,10 @@ footer {
     font-size: 16px;
 }
 
+footer p {
+    margin-top: 0;
+    margin-bottom: 0.2em;
+}
 footer div {
     position: relative;
 }
@@ -142,14 +141,11 @@ footer div {
 
 .social-links a{
         color: #fff;
-        font-size: 40px;
+        font-size: 22px;
         padding: 5px;
 
     }
-/* .footer-social-col {
-        position: relative;
-      
-} */
+
 .company-details {
     padding-left: 20px;
 }
