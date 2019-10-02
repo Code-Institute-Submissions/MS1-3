@@ -1,10 +1,10 @@
+
 body {
     font-family: 'Roboto Condensed', sans-serif;
-}
-body {
     padding: 0;
     margin: 0;
 }
+
 a {
     text-decoration: none;
     color: #fff;
@@ -27,7 +27,7 @@ a {
 }
 
 .callout-container::after {
-    background: url('/assets/img/pattern.png') repeat ;
+    background: url('/assets/img/pattern.png') repeat;
     content: "";
     display: block;
     position: absolute;
@@ -37,66 +37,85 @@ a {
     height: 100%;
     z-index: -1;
     opacity: 0.4;
-    }
+}
 
 /* -------------------  NAVIGATION  ------------------------*/
 
-@media screen and (min-width: 768px) {
-.skew > li {
-    display:inline-block;
-    transition: background 0.5s;
-    -moz-transform: skew(-12deg);
-    -ms-transform: skew(-12deg);
-    -webkit-transform: skew(-12deg);
-    -o-transform: skew(-12deg);
-     transform: skew(-0deg);
-     border: #000;
-     border-left:1px solid #af2330;
-     
-  }
-.skew > li:hover {
-    display:inline-block;
-    -webkit-transition: background-color 0.3s ease-out;
-    -moz-transition: background-color 0.3s ease-out;
-    -o-transition: background-color 0.3s ease-out;
-    transition: background-color 0.3s ease-out;
-    background-color: rgba(0,0,0,.12);
-}
-
-.skew > li:active {
-    display:inline-block;
-    -webkit-transition: background-color 0.3s ease-out;
-    -moz-transition: background-color 0.3s ease-out;
-    -o-transition: background-color 0.3s ease-out;
-    transition: background-color 0.3s ease-out;
-    background-color: #af2330;
-}
-
-.skew > li:last-child {
-  border-right:1px solid rgb(184, 13, 50);
-  }
-}
-
-@media screen and (max-width: 767.98px) {
-    a.nav-link {
-        background-color:#f8f9fa ;
-        d
+@media screen and (min-width: 992px) {
+    .skew>li {
+        display: inline-block;
+        transition: background 0.5s;
+        -moz-transform: skew(-12deg);
+        -ms-transform: skew(-12deg);
+        -webkit-transform: skew(-12deg);
+        -o-transform: skew(-12deg);
+        transform: skew(-0deg);
+        border-left: 1px solid #af2330;
     }
 
+    .skew>li:hover {
+        display: inline-block;
+        -webkit-transition: background-color 0.3s ease-out;
+        -moz-transition: background-color 0.3s ease-out;
+        -o-transition: background-color 0.3s ease-out;
+        transition: background-color 0.3s ease-out;
+        background-color: rgba(0, 0, 0, .10);
+    }
+
+    .skew>li:active {
+        display: inline-block;
+        -webkit-transition: background-color 0.3s ease-out;
+        -moz-transition: background-color 0.3s ease-out;
+        -o-transition: background-color 0.3s ease-out;
+        transition: background-color 0.3s ease-out;
+        background-color: #af2330;
+    }
+
+    .skew>li:last-child {
+        border-right: 1px solid rgb(184, 13, 50);
+    }
 }
-.fit-image{
+
+@media screen and (max-width: 991.98px) {
+    a.nav-link {
+        background-color: #f8f9fa;
+        border-top: 1px solid #af2330;
+
+    }
+
+a.navbar-brand {
+    margin-left: 15px;
+}
+
+.navbar-toggler {
+    margin-right: 15px;
+}
+    a.nav-link:last-child {
+        border-bottom: 1px solid #af2330;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+}
+
+.fit-image {
     height: 7vh;
 }
+
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(0,0,0,.6);
-   
+    color: rgba(0, 0, 0, .6);
+
 }
+
 .navbar-light .navbar-nav .nav-link:hover {
-    color:#000;
+    color: #000;
 }
+
 .navbar-light .navbar-nav .nav-link:active {
-    color:#fff;
+    color: #fff;
 }
+
 .navbar {
     height: 9vh;
     z-index: 43;
@@ -105,7 +124,7 @@ a {
 i {
     display: inline-block;
     margin-right: 6px;
-  }
+}
 
 .nav-link {
     font-size: 1.5em;
@@ -114,15 +133,17 @@ i {
 /* -------------------  NAVIGATION  ------------END---------*/
 
 /* -------------------  CONTENT     ------------------------*/
-.home-card{    
+.home-card {
     opacity: 0.9;
 }
+
 .vig-red {
     background-color: #af2330;
     border: 1px solid #af2330;
     opacity: 0.85;
     color: #fff;
 }
+
 /* -------------------  CONTENT     ------------END---------*/
 
 /* -------------------  FOOTER      ------------------------*/
@@ -140,35 +161,38 @@ footer p {
     margin-top: 0;
     margin-bottom: 0.2em;
 }
+
 footer div {
     position: relative;
 }
+
 #footer-styling {
     padding: 20px;
 }
 
-.social-links li{
+.social-links li {
     display: inline-block;
 }
 
 .social-links {
     align-items: center;
-    }
+}
 
-.social-links a{
-        color: #fff;
-        font-size: 22px;
-        padding: 5px;
+.social-links a {
+    color: #fff;
+    font-size: 22px;
+    padding: 5px;
 
-    }
+}
 
-label{
-        color:#1f2b36
-    }
+label {
+    color: #1f2b36
+}
 
-.modal-title{
+.modal-title {
     color: #1f2b36;
-}    
+}
+
 .company-details {
     padding-left: 20px;
 }
@@ -177,7 +201,7 @@ label{
 .copyright {
     background-color: #1f2b36;
     color: #fff;
-    padding-left: 20px; 
+    padding-left: 20px;
 }
 
 /* -------------------  ANIMATIONS  ------------------------*/
