@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Roboto Condensed', sans-serif;
     padding: 0;
@@ -77,20 +76,21 @@ a {
 }
 
 @media screen and (max-width: 991.98px) {
-    a.nav-link {
+    .skew>li {
         background-color: #f8f9fa;
         border-top: 1px solid #af2330;
 
     }
 
-a.navbar-brand {
-    margin-left: 15px;
-}
+    a.navbar-brand {
+        margin-left: 15px;
+    }
 
-.navbar-toggler {
-    margin-right: 15px;
-}
-    a.nav-link:last-child {
+    .navbar-toggler {
+        margin-right: 15px;
+    }
+
+    .skew>li:last-child {
         border-bottom: 1px solid #af2330;
     }
 
