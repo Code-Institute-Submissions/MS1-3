@@ -87,7 +87,8 @@ a {
     }
 
     .navbar-toggler {
-        margin-right: 15px;
+        margin-right: 5vw;
+        
     }
 
     .skew>li:last-child {
@@ -97,10 +98,15 @@ a {
     .navbar {
         padding: 0;
     }
+    .nav-link {
+    margin-left: 5vw;
+    padding-left: 15px !important;
+    }
 }
 
 .fit-image {
     height: 7vh;
+    padding-left: 5vw;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -119,9 +125,8 @@ a {
 .navbar {
     height: 9vh;
     z-index: 43;
-    padding-left: 5vw;
-    padding-right: 5vw;
 }
+
 
 i {
     display: inline-block;
