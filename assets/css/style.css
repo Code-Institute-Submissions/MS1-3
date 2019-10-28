@@ -212,15 +212,18 @@ label {
     color: #1f2b36
 }
 
-.modal-title {
-    color: #1f2b36;
-}
-
 .company-details {
     padding-left: 20px;
 }
 
+ul {
+    padding-inline-start: 0px;
 
+}
+
+.footer-links {
+    padding-right= 10px;
+}
 .copyright {
     background-color: #1f2b36;
     color: #fff;

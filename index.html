@@ -97,18 +97,8 @@
   <!-------------------------FOOTER------------------------------------------------------------>
   <footer id="footer-styling" class="container-fluid">
     <div class="row">
-      <div class="col-12 col-md-3 order-md-1 footer-social-col">
-        <ul class="social-links">
-          <li><a target="_blank" href="https://www.facebook.com/vigilantsecsystems/"><i
-                class="fab fa-facebook-square"></i></a></li>
-          <li><a target="_blank" href="https://twitter.com/vigilantsec"><i class="fab fa-twitter-square"></i></a></li>
-          <li><a target="_blank" href="https://www.instagram.com/vigilantsecuritysystems/"><i
-                class=" fab fa-instagram"></i></a></li>
-          <li><a target="_blank" href="https://www.linkedin.com/company/vigilant-security-systems-limited"><i
-                class="fab fa-linkedin"></i></a></li>
-        </ul>
-      </div>
-      <div class="col-12 col-md-3 company-details">
+      
+      <div class="col-12 col-md-4 company-details text-center">
         <p> <i class="fas fa-phone"></i> 01883 332955 <span> <i class="far fa-clock" style="padding-left: 10px" ;></i>
             24/7 </span> </p>
 
@@ -119,100 +109,31 @@
         <p>Surrey</p>
         <p>CR3 5TP</p>
       </div>
-      <div class="col-12 col-md-3 map-responsive">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d311.90725091548694!2d-0.0972995!3d51.2879759!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875fc2115860f83%3A0xddd735ab4a7640a4!2s48%20Westway%2C%20Caterham%20CR3%205TP!5e0!3m2!1sen!2suk!4v1570897558197!5m2!1sen!2suk" width="400" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-      </div>
+      <div class="col-12 col-md-4 map-responsive text-center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d311.90725091548694!2d-0.0972995!3d51.2879759!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875fc2115860f83%3A0xddd735ab4a7640a4!2s48%20Westway%2C%20Caterham%20CR3%205TP!5e0!3m2!1sen!2suk!4v1570897558197!5m2!1sen!2suk" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
-      <div class="col-12 col-md-3 ">
+      </div>
+      <div class="row">
+      <div class="col-12 text-center">
         <a class="footer-links" href="#about">About</a>
         <a class="footer-links" href="#about">Deals</a>
         <a class="footer-links" href="#about">Partners</a>
-        <a class="footer-links" data-toggle="modal" data-target="#careerModal">Careers</a>
-        <a class="footer-links" data-toggle="modal" data-target="#loginModal">Login</a>
-        
-       
-            <!-- Modal content-->
-            <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
-             
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title">Login</h1>
-                        </div>
-                        <div class="modal-body">
-                            <form role="form" method="POST" action="">
-                                <input type="hidden" name="_token" value="">
-                                <div class="form-group">
-                                    <label class="control-label">E-Mail Address</label>
-                                    <div>
-                                        <input type="email" class="form-control input-lg" name="email" value="">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label">Password</label>
-                                    <div>
-                                        <input type="password" class="form-control input-lg" name="password">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div>
-                                        <div class="checkbox">
-                                            <label>
-                                                <input type="checkbox" name="remember"> Remember Me
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div>
-                                        <button type="submit" class="btn btn-success">Login</button>
-             
-                                        <a class="btn btn-link" href="">Forgot Your Password?</a>
-                                    </div>
-                                </div>
-                            </form>
-                            <h1>Or Signup!</h1>
-                            <form role="form" method="POST" action="">
-                                <input type="hidden" name="_token" value="">
-                                <div class="form-group">
-                                    <label class="control-label">Username</label>
-                                    <div>
-                                        <input type="text" class="form-control input-lg" name="name" value="">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label">E-Mail Address</label>
-                                    <div>
-                                        <input type="email" class="form-control input-lg" name="email" value="">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label">Password</label>
-                                    <div>
-                                        <input type="password" class="form-control input-lg" name="password">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label">Confirm Password</label>
-                                    <div>
-                                        <input type="password" class="form-control input-lg" name="password_confirmation">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div>
-                                        <button type="submit" class="btn btn-success">
-                                            Register
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div><!-- /.modal-content -->
-                </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
+        <a class="footer-links" href="#careers">Careers</a>
+      </div>
+            <div class="col-12 footer-social-col text-center">
+              <ul class="social-links">
+                <li><a target="_blank" href="https://www.facebook.com/vigilantsecsystems/"><i
+                      class="fab fa-facebook-square"></i></a></li>
+                <li><a target="_blank" href="https://twitter.com/vigilantsec"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/vigilantsecuritysystems/"><i
+                      class=" fab fa-instagram"></i></a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/company/vigilant-security-systems-limited"><i
+                      class="fab fa-linkedin"></i></a></li>
+              </ul>
             </div>
-            
-          </div>
+            </div>
+      
+        
 
       </div>
     </div>
