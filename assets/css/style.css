@@ -239,7 +239,7 @@ ul {
 
 
 
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 500px) and (max-width: 767px) {
 
     .map-responsive {
         overflow: hidden;
