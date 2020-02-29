@@ -175,6 +175,7 @@ footer {
     background-color: #1f2b36;
     color: #fff;
     font-size: 16px;
+    position: relative;
 }
 
 footer p {
@@ -256,7 +257,7 @@ ul {
 
     .map-responsive {
         overflow: hidden;
-        padding-top: 25.25%;
+        padding-top: 150px;
         position: relative;
 
 }
@@ -265,12 +266,14 @@ ul {
 
 
 /* ------------------- ROW HEIGHTS  ------------------------*/
-.row.h50 {
-    height: 60%;
+.row.h60 {
+    min-height: 60%;
+}
+.row.h40 {
+    min-height: 40%;
 }
 .row.h30 {
-    height: 30%;
+    min-height: 20%;
 }
-
 
 /* ------------------- ROW HEIGHTS  ------------------------*/
