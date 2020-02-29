@@ -151,6 +151,19 @@ i {
     color: #fff;
 }
 
+.home-content{
+background-color: #dddddd;
+
+}
+
+.business-content{
+background-color: #eeeeee;
+
+}
+
+.testimonials {
+    background-color: #cccccc;
+}
 /* -------------------  CONTENT     ------------END---------*/
 
 /* -------------------  FOOTER      ------------------------*/
@@ -248,3 +261,16 @@ ul {
 
 }
 }
+
+
+
+/* ------------------- ROW HEIGHTS  ------------------------*/
+.row.h50 {
+    height: 60%;
+}
+.row.h30 {
+    height: 30%;
+}
+
+
+/* ------------------- ROW HEIGHTS  ------------------------*/
