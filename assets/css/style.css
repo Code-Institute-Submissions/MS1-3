@@ -151,12 +151,12 @@ i {
     color: #fff;
 }
 
-.home-content{
+#home-content{
 background-color: #dddddd;
 
 }
 
-.business-content{
+#business-content{
 background-color: #eeeeee;
 
 }
@@ -276,4 +276,38 @@ ul {
     min-height: 20%;
 }
 
+
 /* ------------------- ROW HEIGHTS  ------------------------*/
+
+
+
+
+
+
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #1f2b36;
+    
+}
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+    background-color: #af2330;
+}
+
+
+
+.carousel-item img{
+width: auto;
+height: 200px;
+position: relative;
+}
