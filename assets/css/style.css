@@ -8,7 +8,9 @@ a {
     text-decoration: none;
     color: #fff;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 /* -------------------  BACKGROUND  ------------------------*/
 
 .callout-container {
@@ -37,6 +39,8 @@ a {
     z-index: -1;
     opacity: 0.4;
 }
+/* -------------------  BACKGROUND  ---------------END------*/
+
 
 /* -------------------  NAVIGATION  ------------------------*/
 
@@ -208,7 +212,7 @@ footer div {
 
 .map-responsive {
     overflow: hidden;
-    /*  Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625) */
+    
     padding-top: 50px;
     position: relative;
   }
@@ -243,6 +247,10 @@ ul {
     color: #fff;
     padding-left: 20px;
 }
+
+
+/* -------------------  FOOTER      ---------------END------*/
+
 
 /* -------------------  ANIMATIONS  ------------------------*/
 /* -------------------  FOOTER      ------------------------*/
@@ -280,7 +288,7 @@ ul {
 /* ------------------- ROW HEIGHTS  ------------------------*/
 
 
-
+/* -------------------   CAROUSEL   ------------------------*/
 
 
 
@@ -307,7 +315,12 @@ ul {
 
 
 .carousel-item img{
-width: auto;
-height: 200px;
-position: relative;
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+    height: 200px;
+    position: relative;
 }
+
+
+/* -------------------   CAROUSEL   ------------------------*/
