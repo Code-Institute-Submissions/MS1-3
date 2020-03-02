@@ -173,7 +173,7 @@ background-color: #eeeeee;
 /* -------------------  FOOTER      ------------------------*/
 
 footer {
-    min-height: 200px;
+    min-height: 230px;
     margin: 0;
     padding: 0;
     background-color: #1f2b36;
@@ -210,16 +210,16 @@ footer div {
 
 }
 
-.map-responsive {
+ /* .map-responsive {
     overflow: hidden;
     
-    padding-top: 50px;
+    padding-top: 10px;
     position: relative;
-  }
+  }  */
    
   .map-responsive iframe {
      border: 0;
-     height: auto;
+    
      left: 0;
      position: absolute;
      top: 0;
@@ -261,13 +261,24 @@ ul {
 
 
 
-@media (min-width: 500px) and (max-width: 767px) {
+@media (min-width: 300px) and (max-width: 767px) {
+
+
+    
+footer {
+    height: 90vh;
+}
 
     .map-responsive {
         overflow: hidden;
-        padding-top: 150px;
+        padding-top: 200px;
         position: relative;
 
+}
+
+.footer-social-col{
+    padding-top: 10px;
+    
 }
 }
 
