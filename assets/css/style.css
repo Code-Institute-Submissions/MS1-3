@@ -138,7 +138,7 @@ i {
 }
 
 .nav-link {
-    font-size: 1.5em;
+    font-size: 1.5em !important;
 }
 
 /* -------------------  NAVIGATION  ------------END---------*/
@@ -178,7 +178,7 @@ footer {
     padding: 0;
     background-color: #1f2b36;
     color: #fff;
-    font-size: 16px;
+    font-size:16px;
     position: relative;
 }
 
@@ -264,7 +264,7 @@ ul {
 @media (min-width: 300px) and (max-width: 767px) {
 
 
-    
+
 footer {
     height: 90vh;
 }
@@ -284,19 +284,7 @@ footer {
 
 
 
-/* ------------------- ROW HEIGHTS  ------------------------*/
-.row.h60 {
-    min-height: 60%;
-}
-.row.h40 {
-    min-height: 40%;
-}
-.row.h30 {
-    min-height: 20%;
-}
 
-
-/* ------------------- ROW HEIGHTS  ------------------------*/
 
 
 /* -------------------   CAROUSEL   ------------------------*/
@@ -328,7 +316,7 @@ footer {
 .carousel-item img{
     padding: 10px;
     margin: 10px;
-    height: 200px;
+    max-height: 100px;
     position: relative;
 }
 
@@ -344,4 +332,38 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.autosized-text{
+    
+    font-size: 1.3vmax;
+}
 /* -------------------   CAROUSEL   ------------------------*/
+
+
+
+/* <<<<<<<<<<<<<<<<<<< GENERAL SETTINGS >>>>>>>>>>>>>>>>>>>>*/
+
+
+
+/* ------------------- ROW HEIGHTS  ------------------------*/
+.row.h60 {
+    min-height: 60%;
+}
+.row.h40 {
+    min-height: 40%;
+}
+.row.h30 {
+    min-height: 20%;
+}
+
+
+/* ------------------- ROW HEIGHTS  ------------------------*/
+
+
+.autosized-text{
+    
+    font-size: 1.4vmax;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<< GENERAL SETTINGS >>>>>>>>>>>>>>>>>>>>*/
