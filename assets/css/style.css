@@ -44,6 +44,8 @@ html {
 
 /* -------------------  NAVIGATION  ------------------------*/
 
+
+
 @media screen and (min-width: 992px) {
     .skew>li {
         display: inline-block;
@@ -108,8 +110,14 @@ html {
     }
 }
 
+nav .shadow {
+
+    box-shadow: 0 .5rem 1rem 
+
+rgba(0,0,0,.25) !important;
+}
 .fit-image {
-    height: 7vh;
+    height: 80px;
     padding-left: 5vw;
 }
 
@@ -127,7 +135,7 @@ html {
 }
 
 .navbar {
-    height: 9vh;
+    height: 90px;
     z-index: 43;
 }
 
@@ -333,10 +341,7 @@ footer {
     padding-bottom: 10px;
 }
 
-.autosized-text{
-    
-    font-size: 1.3vmax;
-}
+
 /* -------------------   CAROUSEL   ------------------------*/
 
 
@@ -360,9 +365,9 @@ footer {
 /* ------------------- ROW HEIGHTS  ------------------------*/
 
 
-.autosized-text{
+.autosized-text-small{
     
-    font-size: 1.4vmax;
+    font-size: calc(0.5em + 1vmin);
 }
 
 
