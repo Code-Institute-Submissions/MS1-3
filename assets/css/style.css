@@ -295,7 +295,7 @@ footer {
 
 
 
-/* -------------------   CAROUSEL   ------------------------*/
+/* -------------------   CAROUSEL   ------------------------
 
 
 
@@ -324,7 +324,7 @@ footer {
 .carousel-item img{
     padding: 10px;
     margin: 10px;
-    /* max-height: 100px; */
+    
     position: relative; 
 }
 
@@ -342,7 +342,7 @@ footer {
 }
 
 
-/* -------------------   CAROUSEL   ------------------------*/
+ -------------------   CAROUSEL   ------------------------*/
 
 
 
@@ -372,3 +372,15 @@ footer {
 
 
 /* <<<<<<<<<<<<<<<<<<< GENERAL SETTINGS >>>>>>>>>>>>>>>>>>>>*/
+
+
+.accreditations img{
+    max-width: 24vw;
+    margin: 15px;
+    max-height: 100px;
+}
+
+.give-me-some-space{
+    margin-top: 15px;
+  
+}
