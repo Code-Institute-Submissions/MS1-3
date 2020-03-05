@@ -384,3 +384,11 @@ footer {
     margin-top: 15px;
   
 }
+
+.tiles img{
+    max-height:60vh ;
+}
+
+.tiles{
+    padding-top: 20px;
+}
