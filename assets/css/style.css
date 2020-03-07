@@ -1,5 +1,9 @@
+
+/* <<<<<<<<<<<<<<<<<<< GENERAL SETTINGS >>>>>>>>>>>>>>>>>>>>*/
+
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.125em;
     padding: 0;
     margin: 0;
 }
@@ -11,11 +15,37 @@ a {
 html {
     scroll-behavior: smooth;
   }
+
+/* ------------------- ROW HEIGHTS  ------------------------*/
+.row.h60 {
+    min-height: 60%;
+}
+.row.h40 {
+    min-height: 40%;
+}
+.row.h30 {
+    min-height: 20%;
+}
+
+
+/* ------------------- ROW HEIGHTS  ------------------------*/
+
+
+
+/* <<<<<<<<<<<<<<<<<<< GENERAL SETTINGS >>>>>>>>>>>>>>>>>>>>*/
+
 /* -------------------  BACKGROUND  ------------------------*/
 
 .callout-container {
     height: 90vh;
-    background: url('/assets/img/home-banner4.jpg') no-repeat center;
+    background: 
+     
+    linear-gradient(
+      rgba(255, 255, 255, 0.25), 
+      rgba(255, 255, 255, 0.70)
+    ),
+    
+    url('/assets/img/home-banner4.jpg') no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -26,6 +56,7 @@ html {
     z-index: 1;
     position: relative;
 }
+
 
 .callout-container::after {
     background: url('/assets/img/pattern.png') repeat;
@@ -162,6 +193,24 @@ i {
     opacity: 0.85;
     color: #fff;
 }
+.vig-red:after {
+    background: url('/assets/img/pattern.png') repeat;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+.vig-grey {
+    background-color: #61565D;
+    border: 1px solid #61565D;
+    opacity: 0.85;
+    color: #fff;
+}
 
 #home-content{
 background-color: #dddddd;
@@ -184,7 +233,7 @@ footer {
     min-height: 230px;
     margin: 0;
     padding: 0;
-    background-color: #1f2b36;
+    background-color: #61565D;
     color: #fff;
     font-size:16px;
     position: relative;
@@ -235,7 +284,7 @@ footer div {
   }
 
 label {
-    color: #1f2b36
+    color: #61565D
 }
 
 .company-details {
@@ -251,7 +300,7 @@ ul {
     padding-right: 10px;
 }
 .copyright {
-    background-color: #1f2b36;
+    background-color: #61565D;
     color: #fff;
     padding-left: 20px;
 }
@@ -309,7 +358,7 @@ footer {
     cursor: pointer;
     border: none;
     border-radius: 50%;
-    background-color: #1f2b36;
+    background-color: #61565D;
     
 }
 .carousel-indicators .active {
@@ -330,7 +379,7 @@ footer {
 
 .carousel-item{
     border-radius: 3px;
-    border: 1px solid #1f2b36;
+    border: 1px solid #61565D;
     
 }
 
@@ -346,32 +395,7 @@ footer {
 
 
 
-/* <<<<<<<<<<<<<<<<<<< GENERAL SETTINGS >>>>>>>>>>>>>>>>>>>>*/
 
-
-
-/* ------------------- ROW HEIGHTS  ------------------------*/
-.row.h60 {
-    min-height: 60%;
-}
-.row.h40 {
-    min-height: 40%;
-}
-.row.h30 {
-    min-height: 20%;
-}
-
-
-/* ------------------- ROW HEIGHTS  ------------------------*/
-
-
-.autosized-text-small{
-    
-    font-size: 16px;
-}
-
-
-/* <<<<<<<<<<<<<<<<<<< GENERAL SETTINGS >>>>>>>>>>>>>>>>>>>>*/
 
 
 .accreditations img{
@@ -391,4 +415,21 @@ footer {
 
 .tiles{
     padding-top: 20px;
+}
+
+
+.banner img{
+    max-width: 100vw;
+}
+
+
+
+
+
+
+.get-quote {
+    min-height: 80px;
+}
+.get-quote p{
+    margin-top: 15px;
 }
