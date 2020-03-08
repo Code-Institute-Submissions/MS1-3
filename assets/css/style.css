@@ -110,6 +110,7 @@ html {
     .skew>li:last-child {
         border-right: 1px solid rgb(184, 13, 50);
     }
+    
 
     .skew>li:first-child {
         border-left: 0px solid rgb(184, 13, 50);
@@ -132,7 +133,6 @@ html {
     .skew>li {
         background-color: #f8f9fa;
         border-top: 1px solid #af2330;
-
     }
 
     a.navbar-brand {
@@ -146,6 +146,12 @@ html {
 
     .skew>li:last-child {
         border-bottom: 1px solid #af2330;
+    }
+    .navbar-info>li:last-child {
+        border-bottom: 1px solid rgb(184, 13, 50);
+    }
+    .navbar-info{
+    padding-right: 0px !important;
     }
 
     .navbar {
@@ -203,7 +209,7 @@ i {
     color: rgba(0, 0, 0, .60);
 }
 .navbar-info .nav-link {
-    font-size: calc(10px + 0.3vw) !important;
+    font-size: calc(10px + 0.5vw) !important;
 }
 /* -------------------  NAVIGATION  ------------END---------*/
 
@@ -448,15 +454,15 @@ footer {
 
 
 .get-quote {
-    min-height: 70px;
+    min-height: 60px;
     font-size: 1.5em;
     
 }
-/* .get-quote p{
-    margin-top: 0px;
+.get-quote p{
+    margin: 10px;
     
     
-} */
+}
 
 .get-quote .btn-lg{
     margin-left: 10px;
