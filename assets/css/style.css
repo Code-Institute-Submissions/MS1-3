@@ -37,7 +37,7 @@ html {
 /* -------------------  BACKGROUND  ------------------------*/
 
 .callout-container {
-    height: 90vh;
+    min-height: 50vh;
     background: 
      
     linear-gradient(
@@ -245,16 +245,30 @@ i {
 
 #home-content{
 background-color: #dddddd;
-
 }
 
-#business-content{
-background-color: #eeeeee;
 
+.home-content {
+    padding: 5px;
+}
+
+
+#business-content{
+    background-color: #eeeeee;
+    font-size: calc(12px + 15vw);
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+.business-content i{
+    padding:15px;
+    border: 1px solid #000;
+    border-radius: 3px;
 }
 
 .testimonials {
     background-color: #cccccc;
+    font-size: 0.75em;
+
 }
 /* -------------------  CONTENT     ------------END---------*/
 
@@ -430,7 +444,7 @@ footer {
 
 
 .accreditations img{
-    max-width: 24vw;
+    max-width: 100%;
     margin: 15px;
     max-height: 100px;
 }
@@ -441,11 +455,12 @@ footer {
 }
 
 .tiles img{
-    max-height:60vh ;
+    width: 100% ;
 }
 
 .tiles{
-    padding-top: 20px;
+    padding: 0px;
+    margin: 0px;
 }
 
 
