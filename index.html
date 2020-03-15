@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
@@ -23,10 +23,9 @@
 
 
 
-  <!----------------------------  NAVIGATION  --------------------------------------->
-  <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light shadow p-0 rounded">
-
-    <a class="navbar-brand " target="_self" href="#home">
+<!-- ----------------------------  NAVIGATION  ------------------------------------- -->
+  <nav id="navbar-scrollspy" class="navbar navbar-expand-lg navbar-light sticky-top bg-light shadow p-0 rounded" >
+    <a class="navbar-brand " target="_self" href="#">
       <img src="/assets/img/vigilogo180x100.png" class="img-fluid fit-image" alt="Vigilant">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -36,7 +35,7 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       
       <ul class="navbar-nav ml-auto skew">
-                <li class="nav-item">
+        <li class="nav-item">
           <a class="nav-link" href="#home">Home</a>
         </li>
         <li class="nav-item">
@@ -53,7 +52,7 @@
       <ul class="ml-4 pr-4 bg-light navbar-nav ml-auto navbar-info">
         <li>
           <div>
-            <a class="nav-link pb-0" href="tel:01883 332955"><i class="fas fa-phone"></i> 01883 332955</a>
+            <a class="nav-link pb-0" href="tel:01883332955"><i class="fas fa-phone"></i> 01883 332955</a>
             <a class="nav-link pt-0" href="info@vigilant-security.net"><i class="fas fa-envelope"></i> info@vigilant-security.net</a>
           </div>
         </li>
@@ -62,12 +61,12 @@
 
   </nav>
 
-  <!----------------------------  NAVIGATION  --------------------END---------------->
+<!-- ----------------------------  NAVIGATION  --------------------END-------------- -->
 
 
-  
-<!-------------------------------  ABOUT US  ---------------------------------------->
-  <section class="container-fluid callout-container">
+<div data-spy="scroll" data-target="#navbar-scrollspy" data-offset="0">
+<!-- -----------------------------  ABOUT US  -------------------------------------- -->
+  <section class="container-fluid callout-container" id="about">
     <div class="row home-card no-gutters pt-3">
       <div class="col-12">
         <div class="card card-left h-100">
@@ -119,9 +118,9 @@
       </div>
     </div>
   </section>
-<!-------------------------------  ABOUT US  ---------------------END---------------->
+<!-- -----------------------------  ABOUT US  ---------------------END-------------- -->
 
-<!------------------------------  GET A QUOTE  -------------------------------------->
+<!-- ----------------------------  GET A QUOTE  ------------------------------------ -->
   <section class="container-fluid banner" id="home">
     <div class="row">
       <div class="col-12 ban p-0">
@@ -132,13 +131,14 @@
       </div>
     </div>
   </section>
-<!------------------------------  GET A QUOTE  -------------------END---------------->
+<!-- ----------------------------  GET A QUOTE  -------------------END-------------- -->
 
-<!-------------------------------  FOR HOME  ---------------------------------------->
+<div id="services">
+<!-- -----------------------------  FOR HOME  -------------------------------------- -->
   <section class="container-fluid text-center home-content" id="home-content">
     <div class="row">
          
-         <div class="col-sm-6">
+         <div class="col-sm-6 main-tile">
             <p><code>.col-sm-6</code> <strong>c</strong></p>
          </div>
         
@@ -162,10 +162,10 @@
           </div>
          </div>   
   </section>
-<!-------------------------------  FOR HOME  ---------------------END---------------->
+<!-- -----------------------------  FOR HOME  ---------------------END-------------- -->
 
 
-<!-----------------------------  FOR BUSINESS  -------------------------------------->
+<!-- ---------------------------  FOR BUSINESS  ------------------------------------ -->
 
   <section class="container-fluid text-center" id="business-content">
       <div class="row">
@@ -192,9 +192,9 @@
             <p><code>.col-sm-6</code> <strong>c</strong></p>
          </div>   
     </section>
-<!-----------------------------  FOR BUSINESS  -------------------END---------------->
-
-<!-----------------------------  TESTIMONIALS  -------------------------------------->
+<!-- ---------------------------  FOR BUSINESS  -------------------END-------------- -->
+</div>
+<!-- ---------------------------  TESTIMONIALS  ------------------------------------ -->
   <section class="container-fluid text-center testimonials" id="testimonials">
     <div class="row home-card  align-items-stretch h40">
       <div class="col-12 col-md-4">
@@ -244,9 +244,9 @@
       </div>
     </div>
   </section>
-<!-----------------------------  TESTIMONIALS  -------------------END---------------->
+<!-- ---------------------------  TESTIMONIALS  -------------------END-------------- -->
 
-<!----------------------------  ACCREDITATIONS  ------------------------------------->
+<!-- --------------------------  ACCREDITATIONS  ----------------------------------- -->
   <section class="container-fluid accreditations">
 
     <div class="col-12 text-center give-me-some-space">
@@ -265,13 +265,13 @@
     </div>
 
   </section>
-<!----------------------------  ACCREDITATIONS  ------------------END---------------->
+<!-- --------------------------  ACCREDITATIONS  ------------------END-------------- -->
 
-<!------------------------------  FOOTER  ------------------------------------------->
-  <footer id="footer-styling" class="container-fluid">
-    <div class="row">
+<!-- ----------------------------  FOOTER  ----------------------------------------- -->
+  <footer id="footer-styling contact-us" class="container-fluid">
+    <div class="row text-center">
 
-      <div class="col-12 col-md-4 company-details text-center">
+      <div class="col-12 col-md-4 company-details ">
         <p> <i class="fas fa-phone"></i> <a href="tel:01883 332955"> 01883 332955</a> <span> <i class="far fa-clock"
               style="padding-left: 10px"></i>
             24/7 </span> </p>
@@ -286,11 +286,8 @@
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d311.90725091548694!2d-0.0972995!3d51.2879759!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875fc2115860f83%3A0xddd735ab4a7640a4!2s48%20Westway%2C%20Caterham%20CR3%205TP!5e0!3m2!1sen!2suk!4v1570897558197!5m2!1sen!2suk"
           width="300" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-
-
-
       </div>
-      <div class=" rowcol-12 col-md-4 footer-social-col text-center">
+      <div class="col-12 col-md-4 footer-social-col">
         <ul class="social-links">
           <li><a href="https://www.facebook.com/vigilantsecsystems/" target="_blank"><i
                 class="fab fa-facebook-square"></i></a></li>
@@ -312,7 +309,7 @@
 
 
   </footer>
-<!------------------------------  FOOTER  ------------------------END---------------->
+<!-- ----------------------------  FOOTER  ------------------------END-------------- -->
 
   <details class="copyright container-fluid">
     <summary>Copyright 2020.</summary>
@@ -320,10 +317,10 @@
     <p>All content and graphics on this web site are the property of the company Vigilant Security Systems LTD or
       whatever is the logo owner of the item in the picture.</p>
   </details>
-  
+</div>
 
 
-<!------------------------------  SCRIPTS  ------------------------------------------->
+<!-- ----------------------------  SCRIPTS  ---------------------------------------- -->
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
