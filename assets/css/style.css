@@ -51,10 +51,12 @@ html {
     -o-background-size: cover;
     background-size: cover;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     z-index: 1;
     position: relative;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 
@@ -255,7 +257,7 @@ background-color: #dddddd;
 
 #business-content{
     background-color: #eeeeee;
-    font-size: calc(12px + 15vw);
+    font-size: calc(12px + 1vw);
     border: 1px solid #000;
     border-radius: 3px;
 }
@@ -268,6 +270,7 @@ background-color: #dddddd;
 .testimonials {
     background-color: #cccccc;
     font-size: 0.75em;
+    
 
 }
 /* -------------------  CONTENT     ------------END---------*/
