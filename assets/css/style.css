@@ -297,7 +297,7 @@ footer div {
     position: relative;
 }
 
-#footer-styling {
+.footer-styling {
     padding: 20px;
 }
 
@@ -485,4 +485,8 @@ footer {
 
 .get-quote .btn-lg{
     margin-left: 10px;
+}
+
+.ban img{
+    width: 100%;
 }
