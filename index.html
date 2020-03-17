@@ -22,7 +22,7 @@
   <![endif]-->
 
   <!--                         NAVIGATION                      -->
-  <nav id="navbar-scrollspy" class="navbar navbar-expand-lg navbar-light sticky-top bg-light shadow p-0 rounded">
+  <nav id="navbar-scrollspy" class="navbar navbar-expand-lg navbar-light sticky-top bg-light shadow  rounded">
     <a class="navbar-brand " target="_self" href="#">
       <img src="/assets/img/vigilogo180x100.png" class="img-fluid fit-image" alt="Vigilant">
     </a>
@@ -144,7 +144,7 @@
 
     <div id="services">
       <!--                         FOR HOME                         -->
-      <section class="container-fluid text-center home-content no-gutters">
+      <section class="container-fluid text-center home-content no-gutters" id="home-content">
         <div class="row">
           <div class="col-12 vig-lgrey">
             <h2>Protect Your Home</h2>
@@ -183,41 +183,45 @@
 
       <!--                         FOR BUSINESS                      -->
 
-      <section class="container-fluid text-center business-content no-gutters">
+      <section class="container-fluid text-center business-content no-gutters pb-3 " id="business-content">
         <div class="row">
-          <div class="col-12 vig-lgrey">
+          <div class="col-12 vig-lgrey ">
             <h2>Protect Your Business</h2>
           </div>
         </div>
         <div class="row" id="text">
           <div class="col-sm-6">
-            <div class="row overlay ">
-              <div class="col-sm-6 small-tile home-cctv-tile" id="bgbg">
-                <div>
-                  <h2>CCTV</h2>
-                  <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque nostrum amet explicabo.</h3>
+            <div class="row ">
+              <div class="col-sm-6 small-tile home-cctv-tile">
+                <div class="overlay">
+    
+                  <h2 class="middle">CCTV</h2>
+                  <h3 class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque nostrum amet explicabo.</h3>
                 </div>
                 
               </div>
-              <div class="col-sm-6 small-tile home-intruder-tile "  id="bgbg">
-                <div>
-                  <h2>Intruder</h2>
-                  <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus tempora dolores veritatis molestiae similique.</h3>
+              <div class="col-sm-6 small-tile home-intruder-tile">
+                <div class="overlay">
+                  
+                  <h2 class="middle">Intruder</h2>
+                  <h3 class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus tempora dolores veritatis molestiae similique.</h3>
                 </div>
                 
               </div>
 
-              <div class="col-sm-6 small-tile home-service-tile"  id="bgbg">
-                <div>
-                  <h2>Service</h2>
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, debitis?</h3>
+              <div class="col-sm-6 small-tile home-service-tile">
+                <div class="overlay">
+                 
+                  <h2 class="middle">Service</h2>
+                <h3 class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, debitis?</h3>
                 </div>
                 
               </div>
-              <div class="col-sm-6 small-tile home-smart-tile"  id="bgbg">
-                <div>
-                  <h2>SMART</h2>
-                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est deserunt nisi blanditiis.</h3>
+              <div class="col-sm-6 small-tile home-smart-tile">
+                <div class="overlay">
+                  
+                  <h2 class="middle">SMART</h2>
+                <h3 class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est deserunt nisi blanditiis.</h3>
                 </div>
                 
               </div>
@@ -372,16 +376,6 @@
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
-
-<script>
-  function on() {
-    document.getElementById("overlay").getElementsByClassName('overlay').style.display = "block";
-  }
-  
-  function off() {
-    document.getElementById("overlay").getElementsByClassName('overlay').style.display = "none";
-  }
   </script>
 </body>
 
