@@ -499,13 +499,133 @@ footer {
 }
 
 /*              services                 */
-.main-tile{
-background-color: #61565D;
-opacity: 0.85;
 
+.home-intruder-tile{
+    padding-bottom: 50%;
+    width: 100%;
+    background: 
+/*      
+    linear-gradient(
+      rgba(255, 255, 255, 0.25), 
+      rgba(255, 255, 255, 0.70)
+    ), */
+    
+    url('/assets/img/Services/PremierElite_Keypad.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    z-index: 1;
+    position: relative;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
+.home-smart-tile{
+    background: 
+     
+/*     linear-gradient(
+      rgba(255, 255, 255, 0.25), 
+      rgba(255, 255, 255, 0.70)
+    ), */
+    
+    url('/assets/img/Services/TexecomConnectApp.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    z-index: 1;
+    position: relative;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.home-cctv-tile{
+    background: 
+     
+/*     linear-gradient(
+      rgba(255, 255, 255, 0.25), 
+      rgba(255, 255, 255, 0.70)
+    ),
+     */
+    url('/assets/img/Services/ColoVu-Gallery-2.png') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    z-index: 1;
+    position: relative;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.home-service-tile{
+    background: 
+     
+/*     linear-gradient(
+      rgba(255, 255, 255, 0.25), 
+      rgba(255, 255, 255, 0.70)
+    ), */
+    
+    url('/assets/img/Services/burglar-alarms3.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    z-index: 1;
+    position: relative;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.main-tile{
+    background-color: #61565D;
+    opacity: 0.85;
+    
+}
+    
 .small-tile{
     background-color: #ff565D;
     border: 1px solid #dddddd;
+    background-size: 100% auto;
+    height:24vw;
+    padding: 0;
+    margin: 0;
 }
+    
+
+#overlay {
+    position: relative;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  #text{
+    position: relative;
+    top: %;
+    left: %;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }

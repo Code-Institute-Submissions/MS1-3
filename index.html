@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar-scrollspy" data-offset="0">
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
@@ -33,7 +33,7 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto skew">
         <li class="nav-item">
-          <a class="nav-link" href="#home">Home</a>
+          <a class="nav-link " href="#home">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#about">About Us</a>
@@ -61,7 +61,7 @@
   <!--                    NAVIGATION                  END -->
 
 
-  <div data-spy="scroll" data-target="#navbar-scrollspy" data-offset="0">
+  <div>
     <!--                   ABOUT US                      -->
     <section class="container-fluid callout-container" id="about">
       <div class="row home-card no-gutters pt-3">
@@ -157,20 +157,20 @@
 
           <div class="col-sm-6">
             <div class="row">
-              <div class="col-sm-6 small-tile home-cctv-tile">
-                <div><code>.col-sm-3</code> <strong>c</strong></div>
-                <div><code>.col-sm-3</code> <strong>c</strong></div>
-              </div>
               <div class="col-sm-6 small-tile home-intruder-tile">
                 <div><code>.col-sm-3</code> <strong>c</strong></div>
                 <div><code>.col-sm-3</code> <strong>c</strong></div>
               </div>
-
-              <div class="col-sm-6 small-tile home-monitoring-tile">
+              <div class="col-sm-6 small-tile home-smart-tile">
                 <div><code>.col-sm-3</code> <strong>c</strong></div>
                 <div><code>.col-sm-3</code> <strong>c</strong></div>
               </div>
-              <div class="col-sm-6 small-tile home-smart-tile">
+
+              <div class="col-sm-6 small-tile home-cctv-tile">
+                <div><code>.col-sm-3</code> <strong>c</strong></div>
+                <div><code>.col-sm-3</code> <strong>c</strong></div>
+              </div>
+              <div class="col-sm-6 small-tile home-service-tile">
                 <div><code>.col-sm-3</code> <strong>c</strong></div>
                 <div><code>.col-sm-3</code> <strong>c</strong></div>
               </div>
@@ -189,25 +189,37 @@
             <h2>Protect Your Business</h2>
           </div>
         </div>
-        <div class="row">
+        <div class="row" id="text">
           <div class="col-sm-6">
-            <div class="row">
-              <div class="col-sm-6 small-tile home-cctv-tile">
-                <div><code>.col-sm-3</code> <strong>c</strong></div>
-                <div><code>.col-sm-3</code> <strong>c</strong></div>
+            <div class="row overlay ">
+              <div class="col-sm-6 small-tile home-cctv-tile" id="bgbg">
+                <div>
+                  <h2>CCTV</h2>
+                  <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque nostrum amet explicabo.</h3>
+                </div>
+                
               </div>
-              <div class="col-sm-6 small-tile home-intruder-tile">
-                <div><code>.col-sm-3</code> <strong>c</strong></div>
-                <div><code>.col-sm-3</code> <strong>c</strong></div>
+              <div class="col-sm-6 small-tile home-intruder-tile "  id="bgbg">
+                <div>
+                  <h2>Intruder</h2>
+                  <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus tempora dolores veritatis molestiae similique.</h3>
+                </div>
+                
               </div>
 
-              <div class="col-sm-6 small-tile home-monitoring-tile">
-                <div><code>.col-sm-3</code> <strong>c</strong></div>
-                <div><code>.col-sm-3</code> <strong>c</strong></div>
+              <div class="col-sm-6 small-tile home-service-tile"  id="bgbg">
+                <div>
+                  <h2>Service</h2>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, debitis?</h3>
+                </div>
+                
               </div>
-              <div class="col-sm-6 small-tile home-smart-tile">
-                <div><code>.col-sm-3</code> <strong>c</strong></div>
-                <div><code>.col-sm-3</code> <strong>c</strong></div>
+              <div class="col-sm-6 small-tile home-smart-tile"  id="bgbg">
+                <div>
+                  <h2>SMART</h2>
+                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est deserunt nisi blanditiis.</h3>
+                </div>
+                
               </div>
             </div>
           </div>
@@ -360,6 +372,16 @@
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+<script>
+  function on() {
+    document.getElementById("overlay").getElementsByClassName('overlay').style.display = "block";
+  }
+  
+  function off() {
+    document.getElementById("overlay").getElementsByClassName('overlay').style.display = "none";
+  }
   </script>
 </body>
 
