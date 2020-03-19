@@ -38,8 +38,24 @@ html {
 
 /* ------------------- ROW HEIGHTS  ------------------------*/
 
+/*                     FONT SIZE                            */
 
+.autosize-large{
+    font-size: calc(14px + 0.4vw);
+}
 
+.autosize-normal{
+    font-size: calc(12px + 0.4vw);
+}
+    
+.autosize-small{
+    font-size: calc(10px + 0.4vw);
+}
+
+.autosize-tiny{
+    font-size: calc(8px + 0.4vw);
+}
+/*                     FONT SIZE                            */
 /* <<<<<<<<<<<<<<<<<<< GENERAL SETTINGS >>>>>>>>>>>>>>>>>>>>*/
 
 /* -------------------  BACKGROUND  ------------------------*/
@@ -265,22 +281,22 @@ i {
 
 /* -------------------  FOOTER      ------------------------*/
 
-footer {
+        .footer {
     min-height: 230px;
     margin: 0;
     padding: 0;
     background-color: #61565D;
     color: #fff;
-    font-size:16px;
+    
     position: relative;
 }
 
-footer p {
+        .footer p {
     margin-top: 0;
     margin-bottom: 0.2em;
 }
 
-footer div {
+        .footer div {
     position: relative;
 }
 
@@ -358,8 +374,8 @@ ul {
 
 
 
-footer {
-    height: 90vh;
+.footer {
+    height: auto;
 }
 
     .map-responsive {
@@ -448,10 +464,11 @@ footer {
 .get-quote {
     min-height: 60px;
     font-size: 1.5em;
+    padding: 20px 10px;
     
 }
 .get-quote p{
-    margin: 10px;
+    margin-bottom: 0;
     
     
 }
@@ -467,43 +484,73 @@ footer {
 /*              services                 */
 
 
-.home-content {
-    
+#home-content{
+    background: 
+         
+        linear-gradient(
+          rgba(69, 14, 19, 0.25), 
+          rgba(255, 255, 255, 0.70)
+        ), 
+        
+        url('/assets/img/Services/grey-chevron-stripes-patterns-rot180.png') repeat center;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        -o-background-size: auto;
+        background-size: auto;
+        width: 100%;
 }
 
 
-.business-content{
+#business-content{
     background: 
-    /*      
+         
         linear-gradient(
-          rgba(255, 255, 255, 0.25), 
-          rgba(255, 255, 255, 0.70)
-        ), */
+          rgba(255, 255, 255, 0.70),
+         rgba(255, 255, 255, 0)
+        ),
         
         url('/assets/img/Services/grey-chevron-stripes-patterns-3.png') repeat center;
         -webkit-background-size: auto;
         -moz-background-size: auto;
         -o-background-size: auto;
         background-size: auto;
-        display: flex;
+        width: 100%;
     font-size: calc(12px + 1vw);
-    border: 1px solid #000;
-    border-radius: 3px;
+
 }
 
-.main-tile{
-    background-color: light;
-    opacity: 0.85;
+
+.main-tile-container{    
+    
+    padding: 50px 0px;
+min-height: 100%;
+    width: 100%;
     
 }
     
-.small-tile{
-    background-color: #ff565D;
-    border: 1px solid #dddddd;
-    background-size: 100% auto;
-    height:24vw;
-    padding: 0;
-    margin: 0;
+.small-tile-container{    
+    
+    padding: 50px 0px;
+min-height: 50vh;
+    width: auto;
+    
+}
+.main-tile{
+
+    background-color: white;
+    opacity: 0.85;
+    min-height: auto;
+    width: 100%;
+    
+    
+}
+.small-tile{    
+    position: relative;
+    
+    height: auto;
+    max-height: 50vh;
+    width: 90%;
+    
 }
 
 .home-intruder-tile{
@@ -523,9 +570,11 @@ footer {
     align-items: left;
     justify-content: left;
     z-index: 1;
-    position: relative;
+    position: center;
     text-align: justify;
     text-justify: inter-word;
+    padding: 20%;
+    
 }
 
 .home-smart-tile{
@@ -548,6 +597,7 @@ footer {
     position: relative;
     text-align: justify;
     text-justify: inter-word;
+    padding: 20%;
 }
 
  .home-cctv-tile{
@@ -569,6 +619,7 @@ footer {
     position: relative;
     text-align: justify;
     text-justify: inter-word;
+    padding: 20%;
 } 
 
 .home-service-tile{
@@ -591,6 +642,7 @@ footer {
     position: relative;
     text-align: justify;
     text-justify: inter-word;
+    padding: 20%;
 }
 
 
