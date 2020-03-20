@@ -7,6 +7,7 @@ body {
     padding: 0;
     margin: 0;
     position: relative;
+    text-align: justify;
 }
 
 a {
@@ -53,7 +54,7 @@ html {
 }
 
 .autosize-tiny{
-    font-size: calc(8px + 0.4vw);
+    font-size: calc(12px + 0.2vw);
 }
 /*                     FONT SIZE                            */
 /* <<<<<<<<<<<<<<<<<<< GENERAL SETTINGS >>>>>>>>>>>>>>>>>>>>*/
@@ -141,6 +142,7 @@ html {
     .skew>li:first-child {
         border-left: 0px solid rgb(184, 13, 50);
     }
+  
 }
 
 .skew>li:hover:first-child {
@@ -187,6 +189,7 @@ html {
     margin-left: 5vw;
     padding-left: 15px !important;
     }
+    
 }
 
 nav .shadow {
@@ -270,7 +273,7 @@ i {
 
 
 .testimonials {
-    background-color: #cccccc;
+    background-color: #f6f6f6;
     font-size: 0.75em;
     
 
@@ -369,7 +372,12 @@ ul {
 
 
 
-
+@media (min-width: 992px){
+    .mid-testimonial-card {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
 @media (min-width: 300px) and (max-width: 767px) {
 
 
@@ -456,10 +464,6 @@ ul {
     max-height: 100px;
 }
 
-.give-me-some-space{
-    margin-top: 15px;
-  
-}
 
 .get-quote {
     min-height: 60px;
@@ -644,6 +648,4 @@ min-height: 50vh;
     text-justify: inter-word;
     padding: 20%;
 }
-
-
 
