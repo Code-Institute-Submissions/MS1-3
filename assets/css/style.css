@@ -244,7 +244,7 @@ i {
 
 /* -------------------  CONTENT     ------------------------*/
 .home-card {
-    opacity: 0.8;
+    opacity: 0.90;
 }
 
 .vig-red {
@@ -520,17 +520,17 @@ ul {
 
 .main-tile-container{    
     
-    padding: 50px 0px;
+    
 min-height: 100%;
     width: 100%;
     
 }
     
-.small-tile-container{    
-    
-    padding: 50px 0px;
+.small-tile-container{
+    position: relative;  
+    padding: 0 !important;  
 min-height: 50vh;
-    width: auto;
+    width: 100%;
     
 }
 .main-tile{
@@ -542,104 +542,10 @@ min-height: 50vh;
     
     
 }
-.small-tile{    
-    position: relative;
-    
+.small-tile img{    
     height: auto;
-    max-height: 50vh;
-    width: 90%;
+    width: 100%;
     
 }
 
-.home-intruder-tile{
-    background: 
-/*      
-    linear-gradient(
-      rgba(255, 255, 255, 0.25), 
-      rgba(255, 255, 255, 0.70)
-    ), */
-    
-    url('/assets/img/Services/PremierElite_Keypad.jpg') no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    z-index: 1;
-    position: center;
-    text-align: justify;
-    text-justify: inter-word;
-    padding: 20%;
-    
-}
-
-.home-smart-tile{
-    background: 
-     
-/*     linear-gradient(
-      rgba(255, 255, 255, 0.25), 
-      rgba(255, 255, 255, 0.70)
-    ), */
-    
-    url('/assets/img/Services/TexecomConnectApp.jpg') no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    z-index: 1;
-    position: relative;
-    text-align: justify;
-    text-justify: inter-word;
-    padding: 20%;
-}
-
- .home-cctv-tile{
-    background: 
-     
-    /* linear-gradient(
-      rgba(255, 255, 255, 0.25), 
-      rgba(255, 255, 255, 0.70)
-    ),*/
-    url('/assets/img/Services/ColoVu-Gallery-2.png') no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    z-index: 1;
-    position: relative;
-    text-align: justify;
-    text-justify: inter-word;
-    padding: 20%;
-} 
-
-.home-service-tile{
-    background: 
-     
-/*     linear-gradient(
-      rgba(255, 255, 255, 0.25), 
-      rgba(255, 255, 255, 0.70)
-    ), */
-    
-    url('/assets/img/Services/burglar-alarms3.jpg') no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    z-index: 1;
-    position: relative;
-    text-align: justify;
-    text-justify: inter-word;
-    padding: 20%;
-}
 
