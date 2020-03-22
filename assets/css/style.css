@@ -18,7 +18,7 @@ html {
     scroll-behavior: smooth;
   }
 
-/* ------------------- ROW HEIGHTS  ------------------------*/
+/*                     ROW HEIGHTS                          */
 .row.h60 {
     min-height: 60%;
 }
@@ -29,15 +29,7 @@ html {
     min-height: 20%;
 }
 
-.ratio11 {
-    position: relative;
-    
-    width: 100%;
-    padding-top: 100%;
-    
-}
-
-/* ------------------- ROW HEIGHTS  ------------------------*/
+/*                     ROW HEIGHTS                          */
 
 /*                     FONT SIZE                            */
 
@@ -50,16 +42,17 @@ html {
 }
     
 .autosize-small{
-    font-size: calc(10px + 0.4vw);
+    font-size: calc(14px + 0.2vw);
 }
 
 .autosize-tiny{
     font-size: calc(12px + 0.2vw);
 }
 /*                     FONT SIZE                            */
+
 /* <<<<<<<<<<<<<<<<<<< GENERAL SETTINGS >>>>>>>>>>>>>>>>>>>>*/
 
-/* -------------------  BACKGROUND  ------------------------*/
+/*                      BACKGROUND                          */
 
 .callout-container {
     min-height: 50vh;
@@ -97,10 +90,10 @@ html {
     z-index: -1;
     opacity: 0.4;
 }
-/* -------------------  BACKGROUND  ---------------END------*/
+/*                      BACKGROUND  ---------------END------*/
 
 
-/* -------------------  NAVIGATION  ------------------------*/
+/*                      NAVIGATION                          */
 
 
 
@@ -142,6 +135,7 @@ html {
     .skew>li:first-child {
         border-left: 0px solid rgb(184, 13, 50);
     }
+
   
 }
 
@@ -189,7 +183,7 @@ html {
     margin-left: 5vw;
     padding-left: 15px !important;
     }
-    
+
 }
 
 nav .shadow {
@@ -240,9 +234,9 @@ i {
 .navbar-info .nav-link {
     font-size: calc(10px + 0.5vw) !important;
 }
-/* -------------------  NAVIGATION  ------------END---------*/
+/*                      NAVIGATION  ------------END---------*/
 
-/* -------------------  CONTENT     ------------------------*/
+/*                      CONTENT                             */
 .home-card {
     opacity: 0.90;
 }
@@ -280,9 +274,9 @@ i {
 }
 
 
-/* -------------------  CONTENT     ------------END---------*/
+/*                      CONTENT     ------------END---------*/
 
-/* -------------------  FOOTER      ------------------------*/
+/*                      FOOTER                              */
 
         .footer {
     min-height: 230px;
@@ -355,50 +349,54 @@ ul {
 }
 
 
-/* -------------------  FOOTER      ---------------END------*/
+/*                      FOOTER      ---------------END------*/
 
 
-/* -------------------  ANIMATIONS  ------------------------*/
-/* -------------------  FOOTER      ------------------------*/
-/* -------------------  HEADER      ------------------------*/
-/* -------------------  BACKGROUND  ------------------------*/
-/* -------------------          ------------------------*/
+/*                      ANIMATIONS                          */
+/*                      FOOTER                              */
+/*                      HEADER                              */
+/*                      BACKGROUND                          */
+/*                                                      */
 
 
 
-@media (min-width: 992px){
+@media (min-width: 767px){
     .mid-testimonial-card {
         padding-left: 0;
         padding-right: 0;
       }
+      .copyright{
+        margin-top: 2em;
     }
+    }
+
 @media (min-width: 300px) and (max-width: 767px) {
 
 
 
-.footer {
-    height: auto;
-}
+    .footer {
+        height: auto;
+    }
 
     .map-responsive {
         overflow: hidden;
         padding-top: 200px;
         position: relative;
 
-}
+    }
 
-.footer-social-col{
-    padding-top: 10px;
+    .footer-social-col{
+        padding-top: 10px;
     
+    }
 }
-}
 
 
 
 
 
 
-/* -------------------   CAROUSEL   ------------------------
+/*                       CAROUSEL                           
 
 
 
@@ -445,7 +443,7 @@ ul {
 }
 
 
- -------------------   CAROUSEL   ------------------------*/
+                       CAROUSEL                           */
 
 
 
