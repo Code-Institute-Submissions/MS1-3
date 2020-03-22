@@ -92,6 +92,14 @@ html {
 /*                      BACKGROUND                          */
 
 /*                      NAVIGATION BAR                      */
+.skew>li:hover {
+    display: inline-block;
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+    background-color: rgba(255, 255, 255, 0.80);
+}
 
 @media screen and (min-width: 992px) {
     .skew>li {
@@ -110,7 +118,7 @@ html {
         -moz-transition: background-color 0.3s ease-out;
         -o-transition: background-color 0.3s ease-out;
         transition: background-color 0.3s ease-out;
-        background-color: rgba(255, 255, 255, 0.80);
+        background-color: rgba(0, 0, 0, .10);
     }
     .skew>li:active {
         display: inline-block;
@@ -128,14 +136,7 @@ html {
     }
 }
 
-.skew>li:hover {
-    display: inline-block;
-    -webkit-transition: background-color 0.3s ease-out;
-    -moz-transition: background-color 0.3s ease-out;
-    -o-transition: background-color 0.3s ease-out;
-    transition: background-color 0.3s ease-out;
-    background-color: rgba(255, 255, 255, 0.80);
-}
+
 
 @media screen and (max-width: 991.98px) {
     .skew>li {
@@ -327,7 +328,7 @@ ul {
 /*                                                          */
 
 
-@media (min-width: 767px){
+@media (min-width: 991.98px){
     .mid-testimonial-card {
         padding-left: 0;
         padding-right: 0;
