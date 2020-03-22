@@ -28,7 +28,6 @@ html {
 .row.h30 {
     min-height: 20%;
 }
-
 /*                     ROW HEIGHTS                          */
 
 /*                     FONT SIZE                            */
@@ -90,8 +89,8 @@ html {
     z-index: -1;
     opacity: 0.4;
 }
-/*                      BACKGROUND  ---------------END------*/
 
+/*                      BACKGROUND                          */
 
 /*                      NAVIGATION                          */
 
@@ -108,7 +107,6 @@ html {
         transform: skew(-0deg);
         border-left: 1px solid #af2330;
     }
-
     .skew>li:hover {
         display: inline-block;
         -webkit-transition: background-color 0.3s ease-out;
@@ -117,7 +115,6 @@ html {
         transition: background-color 0.3s ease-out;
         background-color: rgba(0, 0, 0, .10);
     }
-
     .skew>li:active {
         display: inline-block;
         -webkit-transition: background-color 0.3s ease-out;
@@ -126,17 +123,12 @@ html {
         transition: background-color 0.3s ease-out;
         background-color: #af2330;
     }
-
     .skew>li:last-child {
         border-right: 1px solid rgb(184, 13, 50);
     }
-    
-
     .skew>li:first-child {
         border-left: 0px solid rgb(184, 13, 50);
     }
-
-  
 }
 
 .skew>li:hover:first-child {
@@ -156,16 +148,12 @@ html {
         background-color: #f8f9fa;
         border-top: 1px solid #af2330;
     }
-
     a.navbar-brand {
         margin-left: 15px;
     }
-
     .navbar-toggler {
-        margin-right: 5vw;
-        
+        margin-right: 5vw; 
     }
-
     .skew>li:last-child {
         border-bottom: 1px solid #af2330;
     }
@@ -175,7 +163,6 @@ html {
     .navbar-info{
     padding-right: 0px !important;
     }
-
     .navbar {
         padding: 0;
     }
@@ -187,10 +174,8 @@ html {
 }
 
 nav .shadow {
-
     box-shadow: 0 .5rem 1rem 
-
-rgba(0,0,0,.25) !important;
+    rgba(0,0,0,.25) !important;
 }
 .fit-image {
     height: 80px;
@@ -234,7 +219,7 @@ i {
 .navbar-info .nav-link {
     font-size: calc(10px + 0.5vw) !important;
 }
-/*                      NAVIGATION  ------------END---------*/
+/*                      NAVIGATION                          */
 
 /*                      CONTENT                             */
 .home-card {
@@ -262,45 +247,37 @@ i {
     color: #fff;
 }
 
-
-
-
-
 .testimonials {
     background-color: #f6f6f6;
     font-size: 0.75em;
-    
-
 }
 
 
-/*                      CONTENT     ------------END---------*/
+/*                      CONTENT                             */
 
 /*                      FOOTER                              */
 
-        .footer {
+.footer {
     min-height: 230px;
     margin: 0;
     padding: 0;
     background-color: #61565D;
     color: #fff;
-    
     position: relative;
 }
 
-        .footer p {
+.footer p {
     margin-top: 0;
     margin-bottom: 0.2em;
 }
 
-        .footer div {
+.footer div {
     position: relative;
 }
 
 .footer-styling {
     padding: 20px;
 }
-
 .social-links li {
     display: inline-block;
 }
@@ -313,18 +290,15 @@ i {
     color: #fff;
     font-size: 22px;
     padding: 5px;
-
 }
 
-
-  .map-responsive iframe {
-     border: 0;
-    
-     left: 0;
-     position: absolute;
-     top: 0;
-     width: 100%;
-  }
+.map-responsive iframe {
+    border: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
 
 label {
     color: #61565D
@@ -336,12 +310,12 @@ label {
 
 ul {
     padding-inline-start: 0px;
-
 }
 
 .footer-links {
     padding-right: 10px;
 }
+
 .copyright {
     background-color: #61565D;
     color: #fff;
@@ -349,15 +323,15 @@ ul {
 }
 
 
-/*                      FOOTER      ---------------END------*/
+/*                      FOOTER                              */
+
 
 
 /*                      ANIMATIONS                          */
 /*                      FOOTER                              */
 /*                      HEADER                              */
 /*                      BACKGROUND                          */
-/*                                                      */
-
+/*                                                          */
 
 
 @media (min-width: 767px){
@@ -368,86 +342,22 @@ ul {
       .copyright{
         margin-top: 2em;
     }
-    }
+}
 
 @media (min-width: 300px) and (max-width: 767px) {
-
-
 
     .footer {
         height: auto;
     }
-
     .map-responsive {
         overflow: hidden;
         padding-top: 200px;
         position: relative;
-
     }
-
     .footer-social-col{
         padding-top: 10px;
-    
     }
 }
-
-
-
-
-
-
-/*                       CAROUSEL                           
-
-
-
-
-.carousel-indicators li {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin: 2px;
-    text-indent: 0;
-    cursor: pointer;
-    border: none;
-    border-radius: 50%;
-    background-color: #61565D;
-    
-}
-.carousel-indicators .active {
-    width: 10px;
-    height: 10px;
-    margin: 2px;
-    background-color: #af2330;
-}
-
-
-
-.carousel-item img{
-    padding: 10px;
-    margin: 10px;
-    
-    position: relative; 
-}
-
-.carousel-item{
-    border-radius: 3px;
-    border: 1px solid #61565D;
-    
-}
-
-.accreditations{
-    margin: 0;
-    padding: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-
-                       CAROUSEL                           */
-
-
-
-
 
 
 .accreditations img{
@@ -456,17 +366,15 @@ ul {
     max-height: 100px;
 }
 
-
 .get-quote {
     min-height: 60px;
     font-size: 1.5em;
     padding: 20px 10px;
     
 }
+
 .get-quote p{
     margin-bottom: 0;
-    
-    
 }
 
 .get-quote .btn-lg{
@@ -482,6 +390,7 @@ ul {
 .services-title{
     padding: 2rem;
 }
+
 #home-content{
     background: 
          
@@ -498,12 +407,11 @@ ul {
         width: 100%;
 }
 
-
 #business-content{
     background: 
          
         linear-gradient(
-          rgba(255, 255, 255, 0.70),
+         rgba(255, 255, 255, 0.70),
          rgba(255, 255, 255, 0)
         ),
         
@@ -513,24 +421,20 @@ ul {
         -o-background-size: auto;
         background-size: auto;
         width: 100%;
-    font-size: calc(12px + 1vw);
-
 }
 
 .home-content{
     padding-left: 0;
     padding-right: 0;
-    }
-
-.business-content{
-padding-left: 0;
-padding-right: 0;
 }
 
-.main-tile-container{    
-    
-    
-min-height: 100%;
+.business-content{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main-tile-container{     
+    min-height: 100%;
     width: 100%;
     padding: 0;
     
@@ -539,18 +443,15 @@ min-height: 100%;
 .small-tile-container{
     position: relative;  
     padding: 0 !important;  
-min-height: 50vh;
+    min-height: 50vh;
     width: 100%;
     
 }
 .main-tile{
-
     background-color: white;
     opacity: 0.85;
     min-height: auto;
     width: 100%;
-    
-    
 }
 .small-tile{    
     height: auto;
