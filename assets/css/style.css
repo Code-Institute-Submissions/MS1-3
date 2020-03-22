@@ -76,7 +76,6 @@ html {
     text-justify: inter-word;
 }
 
-
 .callout-container::after {
     background: url('/assets/img/pattern.png') repeat;
     content: "";
@@ -92,9 +91,7 @@ html {
 
 /*                      BACKGROUND                          */
 
-/*                      NAVIGATION                          */
-
-
+/*                      NAVIGATION BAR                      */
 
 @media screen and (min-width: 992px) {
     .skew>li {
@@ -113,7 +110,7 @@ html {
         -moz-transition: background-color 0.3s ease-out;
         -o-transition: background-color 0.3s ease-out;
         transition: background-color 0.3s ease-out;
-        background-color: rgba(0, 0, 0, .10);
+        background-color: rgba(255, 255, 255, 0.80);
     }
     .skew>li:active {
         display: inline-block;
@@ -131,17 +128,14 @@ html {
     }
 }
 
-.skew>li:hover:first-child {
+.skew>li:hover {
     display: inline-block;
     -webkit-transition: background-color 0.3s ease-out;
     -moz-transition: background-color 0.3s ease-out;
     -o-transition: background-color 0.3s ease-out;
     transition: background-color 0.3s ease-out;
-    background-color: rgba(0, 0, 0, .10);
+    background-color: rgba(255, 255, 255, 0.80);
 }
-
-
-
 
 @media screen and (max-width: 991.98px) {
     .skew>li {
@@ -170,7 +164,6 @@ html {
     margin-left: 5vw;
     padding-left: 15px !important;
     }
-
 }
 
 nav .shadow {
@@ -219,7 +212,7 @@ i {
 .navbar-info .nav-link {
     font-size: calc(10px + 0.5vw) !important;
 }
-/*                      NAVIGATION                          */
+/*                      NAVIGATION BAR                      */
 
 /*                      CONTENT                             */
 .home-card {
