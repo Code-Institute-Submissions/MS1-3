@@ -454,7 +454,7 @@ ul {
 
 .accreditations img{
     max-width: 100%;
-    margin: 15px;
+    margin-bottom: 15px;
     max-height: 100px;
 }
 
@@ -481,7 +481,9 @@ ul {
 
 /*              services                 */
 
-
+.services-title{
+    padding: 2rem;
+}
 #home-content{
     background: 
          
@@ -517,12 +519,22 @@ ul {
 
 }
 
+.home-content{
+    padding-left: 0;
+    padding-right: 0;
+    }
+
+.business-content{
+padding-left: 0;
+padding-right: 0;
+}
 
 .main-tile-container{    
     
     
 min-height: 100%;
     width: 100%;
+    padding: 0;
     
 }
     
@@ -542,10 +554,13 @@ min-height: 50vh;
     
     
 }
-.small-tile img{    
+.small-tile{    
     height: auto;
     width: 100%;
-    
+    padding: 0;
+    object-fit:cover;    
 }
 
-
+.small-tile img{
+    object-fit:cover;  
+}
