@@ -235,9 +235,9 @@ i {
 }
 
 .vig-lgrey {
-    background-color: #61565D;
-    border: 1px solid #61565D;
-    opacity: 0.65;
+    background-color: #b9b5b5;
+    border: 1px solid #b9b5b5;
+    opacity: 1;
     color: #fff;
 }
 
@@ -351,6 +351,18 @@ ul {
     .footer-social-col{
         padding-top: 10px;
     }
+    .services-title::after {
+        background: url('/assets/img/pattern.png') repeat;
+        content: "";
+        display: flex;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        opacity: 0.4;
+    }
 }
 
 
@@ -382,15 +394,18 @@ ul {
 /*              services                 */
 
 .services-title{
-    padding: 2rem;
+    background-color: #f4f4f4;
+    letter-spacing: 0.75rem;
+    padding: 4rem ;
+    width: 100%;
 }
 
 #home-content{
     background: 
          
         linear-gradient(
-          rgba(141, 124, 126, 0.25), 
-          rgba(255, 255, 255, 0.70)
+          rgba(255, 255, 255, 0.70), 
+          rgba(255, 255, 255, 1)
         ), 
         
         url('/assets/img/Services/grey-chevron-stripes-patterns-rot180.png') repeat center;
@@ -405,10 +420,9 @@ ul {
     background: 
          
         linear-gradient(
-         rgba(255, 255, 255, 0.70),
-         rgba(255, 255, 255, 0)
+            rgba(255, 255, 255, 1), 
+            rgba(255, 255, 255, 0.70)
         ),
-        
         url('/assets/img/Services/grey-chevron-stripes-patterns-3.png') repeat center;
         -webkit-background-size: auto;
         -moz-background-size: auto;
@@ -457,3 +471,16 @@ ul {
 .small-tile img{
     object-fit:cover;  
 }
+
+.tile-label{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.tile-text{
+    padding: 0 2em;
+    text-align: justify;
+    padding-bottom: 10vh;
+    font-size: calc(12px + 0.2vw);
+}
+
