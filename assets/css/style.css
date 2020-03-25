@@ -394,10 +394,27 @@ ul {
 /*              services                 */
 
 .services-title{
-    background-color: #f4f4f4;
-    letter-spacing: 0.75rem;
-    padding: 4rem ;
+    background-color: #fff;
+    letter-spacing: 0.5rem;
+    padding: 2rem 0rem;
     width: 100%;
+    font-size: calc(32px + 1vmin);
+    font-weight: 900;
+   
+}
+
+.services-title p{
+margin-bottom: 0.25rem;
+}
+
+.undertitle2p{
+    background-color: #000000;
+    height: 2px;
+}
+.undertitle1p{
+    background-color: #000000;
+    height: 1px;
+    margin-top: 2px;
 }
 
 #home-content{
@@ -405,7 +422,7 @@ ul {
          
         linear-gradient(
           rgba(255, 255, 255, 0.70), 
-          rgba(255, 255, 255, 1)
+          rgba(255, 255, 255, 0.80)
         ), 
         
         url('/assets/img/Services/grey-chevron-stripes-patterns-rot180.png') repeat center;
@@ -420,7 +437,7 @@ ul {
     background: 
          
         linear-gradient(
-            rgba(255, 255, 255, 1), 
+            rgba(255, 255, 255, 0.80), 
             rgba(255, 255, 255, 0.70)
         ),
         url('/assets/img/Services/grey-chevron-stripes-patterns-3.png') repeat center;
