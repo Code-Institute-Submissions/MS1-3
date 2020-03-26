@@ -481,8 +481,9 @@ margin-bottom: 0.25rem;
 .small-tile{    
     height: auto;
     width: 100%;
-    padding: 0;
-    object-fit:cover;    
+    padding: auto;
+    margin: auto;
+        
 }
 
 .small-tile img{
@@ -490,14 +491,16 @@ margin-bottom: 0.25rem;
 }
 
 .tile-label{
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 0em;
+    padding-bottom: 1rem;
+    margin: 0;
+    font-weight: 600;
 }
 
 .tile-text{
     padding: 0 2em;
     text-align: justify;
-    padding-bottom: 10vh;
+    
     font-size: calc(12px + 0.2vw);
 }
 
