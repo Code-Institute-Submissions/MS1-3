@@ -16,7 +16,7 @@
 
 </head>
 
-<body data-spy="scroll" data-target="#navbar-scrollspy" data-offset="0">
+<body data-spy="scroll" data-target="#navbar-scrollspy" data-offset="0" id="home">
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
@@ -36,7 +36,7 @@
           <a class="nav-link " href="#home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about">About Us</a>
+          <a class="nav-link" href="#deals">Deals</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#services">Services</a>
@@ -63,7 +63,7 @@
 
   <div>
     <!--                   ABOUT US                      -->
-    <section class="container-fluid callout-container" id="about">
+    <section class="container-fluid callout-container" >
       <div class="row home-card no-gutters pt-3">
         <div class="col-12">
           <div class="card card-left h-100">
@@ -127,7 +127,7 @@
     <!--                           ABOUT US                     END -->
 
     <!--                         GET A QUOTE                        -->
-    <div class="container-fluid banner" id="home">
+    <div class="container-fluid banner" id="deals">
       <div class="row">
         <div class="col-12 ban p-0">
           <img src="/assets/img/Banner1.png" alt="texecom banner">
@@ -356,97 +356,126 @@
     </section>
     <!--                        ACCREDITATIONS                END -->
 
-    <!--                         FOOTER                      -->
+    <!--                         FOOTER                           -->
     <section id="contact-us" class="container-fluid footer footer-styling pb-0">
+      
       <div class="row">
-        <form>
-          <div class="form-row">
-            <div class="col-md-4 mb-3">
-              <label for="validationDefault01">First name</label>
-              <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Mark" required>
-            </div>
-            <div class="col-md-4 mb-3">
-              <label for="validationDefault02">Last name</label>
-              <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="Otto" required>
-            </div>
-            <div class="col-md-4 mb-3">
-              <label for="validationDefaultUsername">Username</label>
-              <div class="input-group">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" id="inputGroupPrepend2">@</span>
+        <div class="col-lg-6 mb-3">
+          
+            <div class="row ">
+              <div class="col-12 text-center p-3"><h2>Get in touch</h2></div>
+              <div class="col-6">  
+              <div class="company-details ">
+                <p> <i class="fas fa-phone"></i> <a href="tel:01883332955"> 01883 332955</a> <span> <i class="far fa-clock"
+                      style="padding-left: 10px"></i>
+                    24/7 </span> </p>
+                <p> <i class="far fa-envelope"></i>
+                  <a href="mailto:info@vigilant-security.net">info@vigilant-security.net</a> </p>
+                <p><i class="fa fa-map-marker" aria-hidden="true"></i> 48 Westway</p>
+                <p><a href="https://goo.gl/maps/2TDZQZ7c8GYDnErm7" target="_blank">Caterham</a></p>
+                <p><a href="https://goo.gl/maps/2TDZQZ7c8GYDnErm7" target="_blank">Surrey</a></p>
+                <p><a href="https://goo.gl/maps/2TDZQZ7c8GYDnErm7" target="_blank"> <i class="fas fa-map"></i> CR3 5TP</a></p>
+              </div>
+              </div>
+              <div class="col-6 text-center">
+                <div class="col-12">
+                  <h5>Follow Us</h5>
                 </div>
-                <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
+                <div class="col-12 footer-social-col">
+                  <ul class="social-links">
+                    <li><a href="https://www.facebook.com/vigilantsecsystems/" target="_blank"><i
+                          class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="https://twitter.com/vigilantsec" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                    <li><a href="https://www.instagram.com/vigilantsecuritysystems/" target="_blank"><i
+                          class=" fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/vigilant-security-systems-limited" target="_blank"><i
+                          class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                  <div class="undertitle2p-w d-none d-md-block">&nbsp;</div>
+                  <div class="col-12">
+                    <a class="footer-links isdisabled"  data-toggle="tooltip" title="Comming Soon!">T&C</a>
+                    <a class="footer-links isdisabled"  data-toggle="tooltip" title="Comming Soon!">Privacy Policy</a>
+                    <a class="footer-links isdisabled"  data-toggle="tooltip" title="Comming Soon!">Cookie Policy</a>
+                    <a class="footer-links isdisabled"  data-toggle="tooltip" title="Comming Soon!">Careers</a>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="form-row">
-            <div class="col-md-6 mb-3">
-              <label for="validationDefault03">City</label>
-              <input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
-            </div>
-            <div class="col-md-3 mb-3">
-              <label for="validationDefault04">State</label>
-              <input type="text" class="form-control" id="validationDefault04" placeholder="State" required>
-            </div>
-            <div class="col-md-3 mb-3">
-              <label for="validationDefault05">Zip</label>
-              <input type="text" class="form-control" id="validationDefault05" placeholder="Zip" required>
-            </div>
-          </div>
-          <div class="form-group">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-              <label class="form-check-label" for="invalidCheck2">
-                Agree to terms and conditions
-              </label>
-            </div>
-          </div>
-          <button class="btn vig-red" type="submit">Submit</button>
-        </form>
-      </div>
-      <div class="row text-center">
 
-        <div class="col-12 col-md-4 company-details ">
-          <p> <i class="fas fa-phone"></i> <a href="tel:01883332955"> 01883 332955</a> <span> <i class="far fa-clock"
-                style="padding-left: 10px"></i>
-              24/7 </span> </p>
-          <p> <i class="far fa-envelope"></i>
-            <a href="mailto:info@vigilant-security.net">info@vigilant-security.net</a> </p>
-          <p><i class="fa fa-map-marker" aria-hidden="true"></i> 48 Westway</p>
-          <p><a href="https://goo.gl/maps/2TDZQZ7c8GYDnErm7" target="_blank">Caterham</a></p>
-          <p><a href="https://goo.gl/maps/2TDZQZ7c8GYDnErm7" target="_blank">Surrey</a></p>
-          <p><a href="https://goo.gl/maps/2TDZQZ7c8GYDnErm7" target="_blank"> <i class="fas fa-map"></i> CR3 5TP</a></p>
+          <form class="pt-4">
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                
+                <input type="text" class="form-control" id="validationDefault01" placeholder="Your Name..." value="Name*" required>
+              </div>
+              <div class="col-md-6 mb-3">
+               
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                  </div>
+                  <input type="text" class="form-control" id="validationDefaultEmail" placeholder="Email*" aria-describedby="inputGroupPrepend2" required>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-4 mb-3">
+                
+                <input type="text" class="form-control" id="validationDefault03" placeholder="City*" required>
+              </div>
+              <div class="col-md-4 mb-3">
+                
+                <input type="text" class="form-control" id="validationDefault04" placeholder="County">
+              </div>
+              <div class="col-md-4 mb-3">
+                
+                <input type="text" class="form-control" id="validationDefault05" placeholder="Post Code*" required>
+              </div>
+            </div>
+            <div class=" col-md-12 form-group px-0 mb-0">
+              
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Enquiries*" required></textarea>
+            </div>
+            <div class="m-0 p-0 autosize-tiny">
+              *required fields
+            </div>
+            <div class="form-group pt-2">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                  Agree to terms and conditions*
+                </label>
+              </div>
+            </div>
+            <button class="btn vig-red mb-3" type="submit">Submit</button>
+          </form>
         </div>
-
-        <div class="col-12 col-md-4 map-responsive text-center">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d311.90725091548694!2d-0.0972995!3d51.2879759!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875fc2115860f83%3A0xddd735ab4a7640a4!2s48%20Westway%2C%20Caterham%20CR3%205TP!5e0!3m2!1sen!2suk!4v1570897558197!5m2!1sen!2suk"
-            width="300" height="200" style="border:0;" allowfullscreen=""></iframe>
-        </div>
-        <div class="col-12 col-md-4 footer-social-col">
-          <ul class="social-links">
-            <li><a href="https://www.facebook.com/vigilantsecsystems/" target="_blank"><i
-                  class="fab fa-facebook-square"></i></a></li>
-            <li><a href="https://twitter.com/vigilantsec" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="https://www.instagram.com/vigilantsecuritysystems/" target="_blank"><i
-                  class=" fab fa-instagram"></i></a></li>
-            <li><a href="https://www.linkedin.com/company/vigilant-security-systems-limited" target="_blank"><i
-                  class="fab fa-linkedin"></i></a></li>
-          </ul>
-          <div class="col-12 text-center d-none">
-            <a class="footer-links" href="#about">About Us</a>
-            <a class="footer-links" href="#careers">Careers</a>
-            <a class="footer-links" href="#deals">Deals</a>
+        <div class="map col-lg-6 mb-3">
+          <div class="row ">
+            <div class=" col-12 text-center p-3">
+            <h2>
+              Give us a visit
+            </h2>
+          </div>
+          </div>
+          <div class="map-responsive">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d311.90725091548694!2d-0.0972995!3d51.2879759!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875fc2115860f83%3A0xddd735ab4a7640a4!2s48%20Westway%2C%20Caterham%20CR3%205TP!5e0!3m2!1sen!2suk!4v1570897558197!5m2!1sen!2suk"
+              width="300"  style="border:0;" allowfullscreen=""></iframe>
           </div>
         </div>
       </div>
+      
+    <div class="row">
       <div class="col-12 copyright text-center pt-2 mb-0">
-        <p class="autosize-small"> Copyright 2020. - by Evaldo Designs.</p>
-        <p class="pt-0 mb-0 autosize-tiny">All content and graphics on this web site are the property of the company
-          Vigilant Security Systems LTD or
-          whatever is the logo owner of the item in the picture.</p>
-      </div>
+          <p class="autosize-small"> Copyright 2020. - by Evaldo Designs.</p>
+          <p class="pt-0 mb-0 autosize-tiny">All content and graphics on this web site are the property of the company
+            Vigilant Security Systems LTD or
+            whatever is the logo owner of the item in the picture.</p>
+       </div>
+    </div>
 
+      
     </section>
 
     <!--                         FOOTER               END -->

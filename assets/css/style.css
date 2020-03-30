@@ -33,7 +33,7 @@ html {
 /*                     FONT SIZE                            */
 
 .autosize-large{
-    font-size: calc(14px + 0.4vw);
+    font-size: calc(14px + 0.75vw);
 }
 
 .autosize-normal{
@@ -284,18 +284,21 @@ i {
     color: #fff;
     font-size: 22px;
     padding: 5px;
+    font-size: x-large;
 }
 
 .map-responsive iframe {
     border: 0;
     left: 0;
-    position: absolute;
+    position: relative;
     top: 0;
     width: 100%;
+    height: 460px;
+
 }
 
 label {
-    color: #61565D
+    color: #fff
 }
 
 .company-details {
@@ -314,6 +317,10 @@ ul {
     background-color: #61565D;
     color: #fff;
     padding-left: 20px;
+}
+
+.form-check-label{
+    color: #fff;
 }
 
 
@@ -336,6 +343,7 @@ ul {
       .copyright{
         margin-top: 2em;
     }
+    
 }
 
 @media (min-width: 300px) and (max-width: 767px) {
@@ -343,14 +351,10 @@ ul {
     .footer {
         height: auto;
     }
-    .map-responsive {
-        overflow: hidden;
-        padding-top: 200px;
-        position: relative;
-    }
-    .footer-social-col{
+
+    /* .footer-social-col{
         padding-top: 10px;
-    }
+    } */
     .services-title::after {
         background: url('/assets/img/pattern.png') repeat;
         content: "";
@@ -372,6 +376,15 @@ ul {
         margin-bottom: 2rem;
     }
 
+}
+
+
+@media (min-width: 300px) and (max-width: 991.98px) {
+    .map-responsive iframe{
+        overflow: hidden;
+        position: relative;
+        height: 300px;
+    }
 }
 
 
@@ -420,6 +433,12 @@ margin-bottom: 0.25rem;
     background-color: #000000;
     height: 2px;
 }
+
+.undertitle2p-w{
+    background-color: #fff;
+    height: 2px;
+}
+
 .undertitle1p{
     background-color: #000000;
     height: 1px;
@@ -513,3 +532,13 @@ margin-bottom: 0.25rem;
     font-size: calc(12px + 0.2vw);
 }
 
+.isdisabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  .isdisabled > a {
+    color: currentColor;
+    display: inline-block;  /* For IE11/ MS Edge bug */
+    pointer-events: none;
+    text-decoration: none;
+  }
