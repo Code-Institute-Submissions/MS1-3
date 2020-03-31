@@ -14,6 +14,12 @@ a {
     text-decoration: none;
     color: #fff;
 }
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
 html {
     scroll-behavior: smooth;
   }
@@ -153,7 +159,7 @@ html {
         border-bottom: 1px solid #af2330;
     }
     .navbar-info>li:last-child {
-        border-bottom: 1px solid rgb(184, 13, 50);
+        border-bottom: 1px solid #af2330;
     }
     .navbar-info{
     padding-right: 0px !important;
@@ -272,9 +278,9 @@ i {
 .footer-styling {
     padding: 20px;
 }
-.social-links li {
+/* .social-links li {
     display: inline-block;
-}
+} */
 
 .social-links {
     align-items: center;
@@ -308,7 +314,6 @@ label {
 ul {
     padding-inline-start: 0px;
 }
-
 .footer-links {
     padding-right: 10px;
 }
@@ -345,17 +350,24 @@ ul {
     }
     
 }
+.bantext {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: calc(16px + 2vw);
+    margin: 0em 0em;
+    color: rgba(0, 0, 0, .60);
+    text-align: left;
+  }
+
 
 @media (min-width: 300px) and (max-width: 767px) {
 
     .footer {
         height: auto;
     }
-
-    /* .footer-social-col{
-        padding-top: 10px;
-    } */
-    .services-title::after {
+     .services-title::after {
         background: url('/assets/img/pattern.png') repeat;
         content: "";
         display: flex;
@@ -375,18 +387,36 @@ ul {
         padding-top: 2rem;
         margin-bottom: 2rem;
     }
-
 }
 
 
-@media (min-width: 300px) and (max-width: 991.98px) {
+@media (min-width: 150px) and (max-width: 991.98px) {
     .map-responsive iframe{
         overflow: hidden;
         position: relative;
         height: 300px;
     }
+    .bantext {
+        position: absolute;
+        top: 66%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: calc(16px + 3.75vw);
+        margin: 0em 0em;
+        text-align: center;
+        color: rgba(0, 0, 0, .60);
+      }
 }
 
+.break {
+    display: none;
+}
+
+@media (min-width: 323px) and (max-width: 424px) {
+    .break {
+        display: inline-block;
+    }
+}
 
 .accreditations img{
     max-width: 100%;
@@ -413,6 +443,10 @@ ul {
     width: 100%;
 }
 
+.gaq {
+    padding-right: 100%;
+    padding-left: auto;
+}
 /*              services                 */
 
 .services-title{
@@ -535,6 +569,7 @@ margin-bottom: 0.25rem;
 .isdisabled {
     cursor: not-allowed;
     opacity: 0.5;
+    white-space: nowrap;
   }
   .isdisabled > a {
     color: currentColor;
@@ -542,3 +577,4 @@ margin-bottom: 0.25rem;
     pointer-events: none;
     text-decoration: none;
   }
+
