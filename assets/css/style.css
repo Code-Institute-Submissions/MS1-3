@@ -48,7 +48,7 @@ html {
       rgba(255, 255, 255, 0.70)
     ),
     
-    url('/assets/img/home-banner4.jpg') no-repeat center;
+    url('../img/home-banner4.jpg') no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -62,7 +62,7 @@ html {
 }
 
 .callout-container::after {
-    background: url('/assets/img/pattern.png') repeat;
+    background: url('../img/pattern.png') repeat;
     content: "";
     display: flex;
     position: absolute;
@@ -333,7 +333,7 @@ label {
         height: auto;
     }
      .services-title::after {
-        background: url('/assets/img/pattern.png') repeat;
+        background: url('../img/pattern.png') repeat;
         content: "";
         display: flex;
         position: absolute;
@@ -447,7 +447,7 @@ margin-bottom: 0.25rem;
           rgba(255, 255, 255, 0.80)
         ), 
         
-        url('/assets/img/Services/grey-chevron-stripes-patterns-rot180.png') repeat center;
+        url('../img/Services/grey-chevron-stripes-patterns-rot180.png') repeat center;
         -webkit-background-size: auto;
         -moz-background-size: auto;
         -o-background-size: auto;
@@ -462,7 +462,7 @@ margin-bottom: 0.25rem;
             rgba(255, 255, 255, 0.80), 
             rgba(255, 255, 255, 0.70)
         ),
-        url('/assets/img/Services/grey-chevron-stripes-patterns-3.png') repeat center;
+        url('../img/Services/grey-chevron-stripes-patterns-3.png') repeat center;
         -webkit-background-size: auto;
         -moz-background-size: auto;
         -o-background-size: auto;
