@@ -73,8 +73,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
-    align-items: left;
+    display: flex;   
     justify-content: left;
     z-index: 1;
     position: relative;
@@ -309,9 +308,6 @@ label {
     padding-left: 20px;
 }
 
-ul {
-    padding-inline-start: 0px;
-}
 .footer-links {
     padding-right: 10px;
 }
@@ -537,9 +533,7 @@ margin-bottom: 0.25rem;
 .small-tile{    
     height: auto;
     width: 100%;
-    padding: auto;
-    margin: auto;
-        
+    margin: auto;   
 }
 
 .small-tile img{
