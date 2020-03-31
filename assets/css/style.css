@@ -24,27 +24,7 @@ html {
     scroll-behavior: smooth;
   }
 
-/*                     ROW HEIGHTS                          */
-.row.h60 {
-    min-height: 60%;
-}
-.row.h40 {
-    min-height: 40%;
-}
-.row.h30 {
-    min-height: 20%;
-}
-/*                     ROW HEIGHTS                          */
-
 /*                     FONT SIZE                            */
-
-.autosize-large{
-    font-size: calc(14px + 0.75vw);
-}
-
-.autosize-normal{
-    font-size: calc(12px + 0.4vw);
-}
     
 .autosize-small{
     font-size: calc(14px + 0.2vw);
@@ -110,12 +90,13 @@ html {
     .skew>li {
         display: inline-block;
         transition: background 0.5s;
-        -moz-transform: skew(-12deg);
-        -ms-transform: skew(-12deg);
-        -webkit-transform: skew(-12deg);
-        -o-transform: skew(-12deg);
+        -moz-transform: skew(-0deg);
+        -ms-transform: skew(-0deg);
+        -webkit-transform: skew(-0deg);
+        -o-transform: skew(-0deg);
         transform: skew(-0deg);
         border-left: 1px solid #af2330;
+        /* abbandoned skew idea (but left the code just in case) as the website looks old and inconsistent */
     }
     .skew>li:hover {
         display: inline-block;
@@ -134,10 +115,10 @@ html {
         background-color: #af2330;
     }
     .skew>li:last-child {
-        border-right: 1px solid rgb(184, 13, 50);
+        border-right: 1px solid #af2330;
     }
     .skew>li:first-child {
-        border-left: 0px solid rgb(184, 13, 50);
+        border-left: 0px solid #af2330;
     }
 }
 
@@ -176,6 +157,7 @@ nav .shadow {
     box-shadow: 0 .5rem 1rem 
     rgba(0,0,0,.25) !important;
 }
+
 .fit-image {
     height: 80px;
     padding-left: 5vw;
@@ -183,7 +165,6 @@ nav .shadow {
 
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0, 0, 0, .6);
-
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -199,7 +180,6 @@ nav .shadow {
     z-index: 43;
 }
 
-
 i {
     display: inline-block;
     margin-right: 6px;
@@ -208,6 +188,7 @@ i {
 .nav-link {
     font-size: calc(16px + 0.4vw) ;
 }
+
 .navbar-info{
     
     padding-top: 0px !important;
@@ -215,6 +196,7 @@ i {
     margin: 0px !important;
     color: rgba(0, 0, 0, .60);
 }
+
 .navbar-info .nav-link {
     font-size: calc(10px + 0.5vw) !important;
 }
@@ -296,8 +278,7 @@ i {
     position: relative;
     top: 0;
     width: 100%;
-    height: 460px;
-
+    height: 440px;
 }
 
 label {
@@ -322,17 +303,7 @@ label {
     color: #fff;
 }
 
-
 /*                      FOOTER                              */
-
-
-
-/*                      ANIMATIONS                          */
-/*                      FOOTER                              */
-/*                      HEADER                              */
-/*                      BACKGROUND                          */
-/*                                                          */
-
 
 @media (min-width: 991.98px){
     .mid-testimonial-card {
@@ -422,7 +393,6 @@ label {
     min-height: 60px;
     font-size: 1.5em;
     padding: 20px 10px;
-    
 }
 
 .get-quote p{
@@ -514,7 +484,6 @@ margin-bottom: 0.25rem;
     min-height: 100%;
     width: 100%;
     padding: 0;
-    
 }
     
 .small-tile-container{
@@ -522,14 +491,15 @@ margin-bottom: 0.25rem;
     padding: 0 !important;  
     min-height: 50vh;
     width: 100%;
-    
 }
+
 .main-tile{
     background-color: white;
     opacity: 0.85;
     min-height: auto;
     width: 100%;
 }
+
 .small-tile{    
     height: auto;
     width: 100%;
@@ -556,7 +526,6 @@ margin-bottom: 0.25rem;
 .tile-text{
     padding: 0 2em;
     text-align: justify;
-    
     font-size: calc(12px + 0.2vw);
 }
 
@@ -565,6 +534,7 @@ margin-bottom: 0.25rem;
     opacity: 0.5;
     white-space: nowrap;
   }
+
   .isdisabled > a {
     color: currentColor;
     display: inline-block;  /* For IE11/ MS Edge bug */
