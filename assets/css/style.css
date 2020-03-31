@@ -40,6 +40,7 @@ html {
 /*                      BACKGROUND                          */
 
 .callout-container {
+    margin-top: 100px;
     min-height: 50vh;
     background: 
      
@@ -447,7 +448,7 @@ margin-bottom: 0.25rem;
           rgba(255, 255, 255, 0.80)
         ), 
         
-        url('../img/Services/grey-chevron-stripes-patterns-rot180.png') repeat center;
+        url('../img/services/grey-chevron-stripes-patterns-rot180.png') repeat center;
         -webkit-background-size: auto;
         -moz-background-size: auto;
         -o-background-size: auto;
@@ -462,7 +463,7 @@ margin-bottom: 0.25rem;
             rgba(255, 255, 255, 0.80), 
             rgba(255, 255, 255, 0.70)
         ),
-        url('../img/Services/grey-chevron-stripes-patterns-3.png') repeat center;
+        url('../img/services/grey-chevron-stripes-patterns-3.png') repeat center;
         -webkit-background-size: auto;
         -moz-background-size: auto;
         -o-background-size: auto;
@@ -493,20 +494,20 @@ margin-bottom: 0.25rem;
     width: 100%;
 }
 
-.main-tile{
+.main-tile {
     background-color: white;
     opacity: 0.85;
     min-height: auto;
     width: 100%;
 }
 
-.small-tile{    
+.small-tile {    
     height: auto;
     width: 100%;
     margin: auto;   
 }
 
-.small-tile img{
+.small-tile img {
     object-fit:cover;  
 }
 
@@ -516,14 +517,14 @@ margin-bottom: 0.25rem;
     right: 16px;
   }
   
-.tile-label{
+.tile-label {
     padding-top: 0em;
     padding-bottom: 1rem;
     margin: 0;
     font-weight: 600;
 }
 
-.tile-text{
+.tile-text {
     padding: 0 2em;
     text-align: justify;
     font-size: calc(12px + 0.2vw);
@@ -535,7 +536,7 @@ margin-bottom: 0.25rem;
     white-space: nowrap;
   }
 
-  .isdisabled > a {
+.isdisabled > a {
     color: currentColor;
     display: inline-block;  /* For IE11/ MS Edge bug */
     pointer-events: none;
