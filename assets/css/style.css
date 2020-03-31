@@ -278,12 +278,10 @@ i {
 .footer-styling {
     padding: 20px;
 }
-/* .social-links li {
-    display: inline-block;
-} */
 
 .social-links {
     align-items: center;
+    padding-bottom: 1em;
 }
 
 .social-links a {
@@ -443,10 +441,6 @@ ul {
     width: 100%;
 }
 
-.gaq {
-    padding-right: 100%;
-    padding-left: auto;
-}
 /*              services                 */
 
 .services-title{
@@ -552,6 +546,12 @@ margin-bottom: 0.25rem;
     object-fit:cover;  
 }
 
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
 .tile-label{
     padding-top: 0em;
     padding-bottom: 1rem;
