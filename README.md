@@ -75,7 +75,7 @@ https://getbootstrap.com Bootstrap - for very detailed Documentation
 ## Mockups
 
 ![](readme/mockup/xlg.jpg)
-![](readme/mockup/lg.jpg)
+![](readme/mockup/lg.jpg )
 ![](readme/mockup/md.jpg)
 ![](readme/mockup/sm.jpg)
 
