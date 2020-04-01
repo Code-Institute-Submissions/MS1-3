@@ -58,12 +58,13 @@ Map height is not responsive.
 
 ## Feature Change/Left to Implement
 
-Navbar: NA
-Home: Split into two categories and create a full width-height Hero image
-Deals: Simplify banner and add content with HTML and CSS instead on the image and make a user-controllable carousel
-Services: Add 'Find More...' and link to the page with more info about the subject.
-Testimonials: Add live feed and make as the carousel.
-Footer: implement postcode, city, email validators. Include T&C, Careers, Policies pages. As for now, they are just placeholders. Make a map responsive again. 
+Navbar: NA    
+Home: Split into two categories and create a full width-height Hero image   
+Deals: Simplify banner and add content with HTML and CSS instead on the image and make a user-controllable carousel   
+Services: Add 'Find More...' and link to the page with more info about the subject    
+Testimonials: Add live feed and make as the carousel    
+Footer: implement postcode, city, email validators. Include T&C, Careers, Policies pages. As for now, they are just placeholders.   
+Make a map responsive again. 
 
 ## Credits
 
