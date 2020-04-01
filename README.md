@@ -53,7 +53,8 @@ Also found that the Linux environment is case sensitive and had to rename files 
 
 ## Known Issues/Bugs
 
-MS Edge smooth-scroll doesn't work.   
+MS Edge smooth-scroll doesn't work. 
+Scrolling too far when link is clicked 
 Map height is not responsive. 
 
 ## Feature Change/Left to Implement
